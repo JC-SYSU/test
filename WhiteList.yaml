@@ -1,0 +1,153 @@
+payload:
+  - DOMAIN,nexconvert.com
+  - DOMAIN-SUFFIX,nexconvert.com
+  - DOMAIN-SUFFIX,zerotier.com
+# IPTV
+  - DOMAIN-SUFFIX,myeogm.com
+  - DOMAIN-SUFFIX,bestv.com.cn
+# DDNS 获取 IP
+  - DOMAIN,checkip.dyndns.com
+  - DOMAIN,api.ipify.org.herokudns.com
+  - DOMAIN-SUFFIX,checkip.dyndns.org
+  - DOMAIN-SUFFIX,checkipv6.dyndns.org
+  - DOMAIN-SUFFIX,checkip.synology.com
+  - DOMAIN-SUFFIX,ifconfig.co
+  - DOMAIN-SUFFIX,api.myip.com
+  - DOMAIN-SUFFIX,ip-api.com
+  - DOMAIN-SUFFIX,ipapi.co
+  - DOMAIN-SUFFIX,ip6.seeip.org
+  - DOMAIN-SUFFIX,members.3322.org
+# WeChat 白名单 (全直连体验更好) https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,wexin.qq.com
+  - DOMAIN-SUFFIX,weixin.qq.com.cn
+  - DOMAIN,dl.wechat.com
+  - DOMAIN,sglong.wechat.com
+  - DOMAIN,sgminorshort.wechat.com
+  - DOMAIN,sgshort.wechat.com
+  - DOMAIN,tencentmap.wechat.com
+  - IP-CIDR,101.32.104.4/32,no-resolve
+  - IP-CIDR,101.32.104.41/32,no-resolve
+  - IP-CIDR,101.32.104.56/32,no-resolve
+  - IP-CIDR,101.32.118.25/32,no-resolve
+  - IP-CIDR,101.32.133.16/32,no-resolve
+  - IP-CIDR,101.32.133.209/32,no-resolve
+  - IP-CIDR,101.32.133.53/32,no-resolve
+  - IP-CIDR,129.226.107.244/32,no-resolve
+  - IP-CIDR,129.226.3.47/32,no-resolve
+# > Look Up (Only for Wikipedia@macOS, Surge Enhance Mode enabled required) 
+# https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/RuleSet/Wikipedia_for_Look_Up.yaml
+  - PROCESS-NAME,LookupViewService
+  - PROCESS-NAME,/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+  - DOMAIN,lookup-api.apple.com
+  - DOMAIN,lookup-api.apple.com.edgekey.net
+  - DOMAIN,e16991.b.akamaiedge.net
+  
+# OneDrive for Business
+  # - DOMAIN,yourcat-my.sharepoint.com
+  # - DOMAIN,yourcat.sharepoint.com
+
+# Outlook
+  # - DOMAIN-SUFFIX,office365.com
+  # - DOMAIN,cdn.office.net
+  # - DOMAIN-SUFFIX,live.com
+  # - DOMAIN-SUFFIX,office.com
+  # - DOMAIN,login.live.com
+  # - DOMAIN,logincdn.msauth.net
+  # - DOMAIN,login.microsoft.com
+  # - DOMAIN,login.microsoftonline.com
+  # - DOMAIN-SUFFIX,cn.mm.bing.net
+  # - DOMAIN,officeci.azurewebsites.net
+
+# 苹果定位服务
+  - DOMAIN,gspe35-ssl.ls.apple.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN,configuration.ls.apple.com
+  - DOMAIN,gs-loc-cn.apple.com
+  - DOMAIN-SUFFIX,apple.com.cn
+
+# 漫播
+  - DOMAIN-SUFFIX,hongdoulive.com
+  - DOMAIN-SUFFIX,hongrenshuo.com.cn
+
+# WG 穿透
+  - DOMAIN,checkip.synology.com
+  - DOMAIN,ipinfo.io
+  - DOMAIN-SUFFIX,ipinfo.io
+  - DOMAIN-SUFFIX,inet.af
+  - DOMAIN-SUFFIX,tailscale.io
+
+# 润色（IP在北京，不需要代理）
+  - DOMAIN-SUFFIX,enago.cn
+  - DOMAIN-SUFFIX,amazonaws.com.cn
+
+# # 腾讯邮箱
+#   - DOMAIN,imap.exmail.qq.com
+#   - DOMAIN,smtp.exmail.qq.com
+#   - DOMAIN,pop3.exmail.qq.com
+#   - DOMAIN,ex.exmail.qq.com
+#   - DOMAIN,poll.exmail.qq.com
+#   - DOMAIN,imap.medelite.cn
+#   - DOMAIN,smtp.medelite.cn
+#   - DOMAIN-SUFFIX,qqmail.com
+#   - DOMAIN-SUFFIX,msauth.net
+#   - DOMAIN-SUFFIX,outlook.com
+#   - DOMAIN-SUFFIX,hotmail.com
+#   - DOMAIN-SUFFIX,video.qq.com
+#   - DOMAIN-SUFFIX,ipip.net
+  - DOMAIN,shbu.live.bestvcdn.com.cn
+
+  # NAME: Synology
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-08-06 02:07:12
+# DOMAIN-SUFFIX: 17
+# DOMAIN-KEYWORD: 1
+# TOTAL: 18
+  - DOMAIN-SUFFIX,diskstation.me
+  - DOMAIN-SUFFIX,dscloud.biz
+  - DOMAIN-SUFFIX,dscloud.me
+  - DOMAIN-SUFFIX,dscloud.mobi
+  - DOMAIN-SUFFIX,dsmunas.com
+  - DOMAIN-SUFFIX,dsmunas.net
+  - DOMAIN-SUFFIX,dsmunas.org
+  - DOMAIN-SUFFIX,familyds.com
+  - DOMAIN-SUFFIX,familyds.net
+  - DOMAIN-SUFFIX,familyds.org
+  - DOMAIN-SUFFIX,i234.me
+  - DOMAIN-SUFFIX,myds.com
+  - DOMAIN-SUFFIX,quickconnect.to
+  - DOMAIN-SUFFIX,synodns.com
+  - DOMAIN-SUFFIX,synology.cn
+  - DOMAIN-SUFFIX,synology.com
+  - DOMAIN-SUFFIX,synology.me
+  - DOMAIN-KEYWORD,synology
+
+  - DOMAIN-SUFFIX,quickconnect.cn
+  - DOMAIN-SUFFIX,quickconnect.com
+  - DOMAIN-SUFFIX,myds.me
+  - DOMAIN,keepalive.synology.com
+  - DOMAIN-SUFFIX,synology.com
+  - DOMAIN-SUFFIX,synology.cn
+  - DOMAIN-SUFFIX,checkip.dyndns.org
+  - DOMAIN-SUFFIX,checkipv6.dyndns.org
+  - DOMAIN-SUFFIX,checkip.synology.com
+  - DOMAIN-SUFFIX,ifconfig.co
+  - DOMAIN-SUFFIX,api.myip.com
+  - DOMAIN-SUFFIX,ip-api.com
+  - DOMAIN-SUFFIX,ipapi.co
+  - DOMAIN-SUFFIX,ip6.seeip.org
+  - DOMAIN-SUFFIX,members.3322.org
+
+# 网易邮箱
+  - DOMAIN,caldav.163.com
+  - IP-CIDR,103.74.27.0/24
+  - DOMAIN-SUFFIX,163data.com.cn
+  - DOMAIN-SUFFIX,ksord.com
+  
+# 坚果云
+  - DOMAIN-KEYWORD,jianguoyun
+# 多媒体
+  - DOMAIN-SUFFIX,missevan.com
+# 特别放行
+  - DOMAIN,speedtest.cros.wr.pvp.net
