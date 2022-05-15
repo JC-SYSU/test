@@ -32,7 +32,7 @@ payload:
 
 # 测试用途
 #   - DOMAIN-SUFFIX,chat.bilibili.com
-  
+  - DOMAIN-KEYWORD,live-stun
 # 拦截 APT 攻击
   - IP-CIDR,120.77.35.111/32
   - IP-CIDR,47.75.123.111/32
