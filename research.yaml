@@ -6,6 +6,14 @@ payload:
   - DOMAIN-SUFFIX,golang.org
   - DOMAIN-SUFFIX,nhooyr.io
 
+# Apple 天气
+  - DOMAIN,weather-data.apple.com
+  - DOMAIN,weather-map.apple.com
+
+# Apple 搜索
+  - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN-SUFFIX,smoot.apple.cn
+  
 # Azure 日本（用于语音项目的访问）
   - DOMAIN,japaneast.api.speech.microsoft.com
   - DOMAIN,japaneast.api.cognitive.microsoft.com
