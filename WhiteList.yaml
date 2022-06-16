@@ -2,6 +2,7 @@ payload:
   - DOMAIN,nexconvert.com
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,zerotier.com
+  - DOMAIN-SUFFIX,todesk.com
 # IPTV
   - DOMAIN-SUFFIX,myeogm.com
   - DOMAIN-SUFFIX,bestv.com.cn
