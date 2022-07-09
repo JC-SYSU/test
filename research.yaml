@@ -52,6 +52,7 @@ payload:
   - DOMAIN-SUFFIX,convertio.me
 #   - DOMAIN,client.wns.windows.com
   - DOMAIN-SUFFIX,calibre-ebook.com
+  - DOMAIN-SUFFIX,ggiptv.com
   
 # > iCloud Private Relay
 # https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/RuleSet/iCloud_Private_Relay.yaml
