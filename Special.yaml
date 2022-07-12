@@ -1,4 +1,9 @@
 payload:
+  # DNS
+  - DOMAIN,dns.google
+  - DOMAIN,dns.google.com
+  - DOMAIN,mozilla.cloudflare-dns.com
+  
   # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
