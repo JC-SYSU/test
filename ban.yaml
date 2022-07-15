@@ -24,8 +24,8 @@ payload:
 #   - DOMAIN,analysis.jdy.com
 
 # 防止米家设备泄露用户信息
-  - DOMAIN,dlg.io.mi.com
-  - DOMAIN,ot.io.mi.com
+#   - DOMAIN,dlg.io.mi.com
+#   - DOMAIN,ot.io.mi.com
 
 # connection refused in clash
 #   - DOMAIN-KEYWORD,safebrowsing.google
