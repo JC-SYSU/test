@@ -1,0 +1,11 @@
+payload:
+  - DOMAIN,challenges.cloudflare.com
+  - DOMAIN,ouo.io
+  - DOMAIN,appstorrent.ru
+  - DOMAIN-SUFFIX,digit77.com
+  - DOMAIN-SUFFIX,minorpatch.com
+  - DOMAIN-SUFFIX,nmac.to
+  - DOMAIN-SUFFIX,userapi.com
+  - DOMAIN-SUFFIX,mediafire.com
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,dl.google.com

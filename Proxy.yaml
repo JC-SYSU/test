@@ -1,0 +1,73 @@
+payload:
+# Apple Beta 更新：https://support.apple.com/zh-cn/HT210060
+  - DOMAIN,bpapi.apple.com
+  - DOMAIN,cssubmissions.apple.com
+  - DOMAIN,fba.apple.com
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN,alber.apple.com
+  - DOMAIN,captive.apple.com
+  - DOMAIN,gs.apple.com
+  - DOMAIN,humb.apple.com
+  - DOMAIN,static.ips.apple.com
+  - DOMAIN,tbsc.apple.com
+  - DOMAIN,gdmf.apple.com
+  - DOMAIN,identity.apple.com
+  - DOMAIN,iprofiles.apple.com
+  - DOMAIN,mdmenrollment.apple.com
+  - DOMAIN,vpp.itunes.apple.com
+  - DOMAIN,gg.apple.com
+  - DOMAIN,gs.apple.com
+  - DOMAIN,ig.apple.com
+  # - DOMAIN,ns.itunes.apple.com
+  - DOMAIN,swdownload.apple.com
+  - DOMAIN,xp.apple.com
+  - IP-CIDR,17.0.0.0/8
+# Azure 日本（用于语音项目的访问）
+  - DOMAIN,japaneast.api.speech.microsoft.com
+  - DOMAIN,japaneast.api.cognitive.microsoft.com
+  - DOMAIN,api.speech.microsoft.com
+  - DOMAIN,speechstudioprodsrsjpeame.service.signalr.net
+  - DOMAIN,japaneast.tts.speech.microsoft.com
+  - DOMAIN,speech.microsoft.com
+  - DOMAIN,cvoiceprodjpe.blob.core.windows.net
+  - DOMAIN,japaneast.customvoice.api.speech.microsoft.com
+
+# Office 下载
+  - DOMAIN,officecdn-microsoft-com.akamaized.net
+  - DOMAIN,officecdnmac.microsoft.com
+  - DOMAIN,msedge.api.cdp.microsoft.com
+  - DOMAIN,config.edge.skype.com
+  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,events.data.microsoft.com
+
+# 领英国际版
+  - DOMAIN-KEYWORD,linkedin
+  - DOMAIN,realtime.www.linkedin.com
+  - DOMAIN,www.linkedin.com
+  - DOMAIN,www.linkedines.com
+
+# 更多自定义
+  - DOMAIN,clash.razord.top
+  - DOMAIN,yacd.haishan.me
+  - DOMAIN,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,jinglongyu.com
+  - DOMAIN-SUFFIX,ctc.run
+  - DOMAIN-SUFFIX,wgetcloud.ltd
+  - DOMAIN-SUFFIX,recmata.net
+  - DOMAIN-SUFFIX,facmata.net
+  - DOMAIN-SUFFIX,facal.one
+  - DOMAIN-SUFFIX,synn.cc
+  - DOMAIN-SUFFIX,mesl.cloud
+  - DOMAIN-SUFFIX,eggtartcloud.shop
+  - DOMAIN-SUFFIX,kuromis.com
+  - DOMAIN-SUFFIX,esnc.link
+  - DOMAIN-SUFFIX,newyun.top
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bing.com.cn
+  - DOMAIN-SUFFIX,bing.net
+  - DOMAIN-SUFFIX,bingads.com
+  - DOMAIN-SUFFIX,bingagencyawards.com
+  - DOMAIN-SUFFIX,bingapistatistics.com
+  - DOMAIN-SUFFIX,bingsandbox.com
+  - DOMAIN-SUFFIX,bingvisualsearch.com
+  - DOMAIN-SUFFIX,bingworld.com

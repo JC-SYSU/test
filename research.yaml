@@ -1,0 +1,217 @@
+payload:
+# 数据库
+  - DOMAIN-SUFFIX,embase.com
+  - DOMAIN,acw.elsevier.com
+  - DOMAIN-SUFFIX,cochranelibrary.com
+  - DOMAIN,pubmed.ncbi.nlm.nih.gov
+  - DOMAIN-KEYWORD,nih.gov
+  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov
+  - IP-CIDR,34.107.134.0/24
+  - DOMAIN-SUFFIX,doi.org
+  - DOMAIN-SUFFIX,medrxiv.org
+  - DOMAIN-SUFFIX,demdex.net
+  - DOMAIN-SUFFIX,.sk
+  # - DOMAIN-SUFFIX,26260.net
+  # - DOMAIN-SUFFIX,80599.net
+  - DOMAIN,cambridge.80599.net
+  - DOMAIN,oup.80599.net
+  - DOMAIN,link.springer.80599.net
+  - DOMAIN,www-sciencedirect-com.hbku.80599.net
+  - DOMAIN,www-sciencedirect-com.ehe.80599.net
+  - DOMAIN-SUFFIX,biopharmadive.com
+  - DOMAIN-SUFFIX,pharmatimes.com
+# appstorrent.ru
+  # - DOMAIN,appstorrent.ru
+# SCI-HUB
+  - DOMAIN-KEYWORD,sci-hub
+  - DOMAIN-SUFFIX,sci-hub.tw
+  - DOMAIN-SUFFIX,sci-hub.si
+  - DOMAIN-SUFFIX,sci-hub.se
+
+# Elsevier
+  - DOMAIN,elsevierlimited.tt.omtrdc.net
+  - DOMAIN-SUFFIX,elsevier.com
+  - DOMAIN-SUFFIX,sciencedirect.com
+  - DOMAIN-SUFFIX,sciencedirectassets.com
+# AME
+  - DOMAIN-SUFFIX,amegroups.com
+
+# Springer
+  - DOMAIN-SUFFIX,springernature.com
+  - DOMAIN-SUFFIX,springernature.io
+  - DOMAIN-SUFFIX,nature.com
+  - DOMAIN-SUFFIX,nr-data.net
+  - DOMAIN,cdn.cookielaw.org
+  - DOMAIN,cdn.smassets.net
+  - DOMAIN,idp.nature.com
+  - DOMAIN,idp.springernature.com
+  - DOMAIN,js-agent.newrelic.com
+  - DOMAIN,notifier-configs.airbrake.io
+  - DOMAIN,prod.smassets.net
+  - DOMAIN,researcher.nature.com
+  - DOMAIN,secure.surveymonkey.com
+  - DOMAIN,verify.nature.com
+  - DOMAIN,www.surveymonkey.co.uk
+# BMC
+  - DOMAIN-SUFFIX,biomedcentral.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,airbrake.io
+
+# ScholarOne
+  - DOMAIN-SUFFIX,akstat.io
+# Taylor & francis
+  - DOMAIN,accounts.taylorfrancis.com
+  - DOMAIN,api.taylorfrancis.com
+  - DOMAIN,certify-js.alexametrics.com
+  - DOMAIN,certify.alexametrics.com
+  - DOMAIN,hcaptcha.com
+  - DOMAIN,newassets.hcaptcha.com
+  - DOMAIN,secure.late6year.com
+  - DOMAIN,static.cloudflareinsights.com
+  - DOMAIN,t.contentsquare.net
+  - DOMAIN,cdnjs.cloudflare.com
+  - DOMAIN,go.taylorandfrancis.com
+  - DOMAIN,pi.pardot.com
+  - DOMAIN,rp.tandfonline.com
+# Hindawi
+  - DOMAIN,review.hindawi.com
+  - DOMAIN,sso.hindawi.com
+  - DOMAIN,app.getsitecontrol.com
+  - DOMAIN,review-gateway.hindawi.com
+  - DOMAIN-SUFFIX,hotjar.com
+  - DOMAIN,s.yimg.com
+  - DOMAIN,sp.analytics.yahoo.com
+  - DOMAIN-SUFFIX,getsitecontrol.com
+
+# Karger
+  - DOMAIN-SUFFIX,manuscriptmanager.net
+
+# Clarivate
+  - DOMAIN-SUFFIX,vidyard.com
+#   - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,clarivate.com
+  - DOMAIN-SUFFIX,webofscience.com
+  - DOMAIN-SUFFIX,hotjar.com
+  - DOMAIN-SUFFIX,licdn.com
+  - DOMAIN-SUFFIX,pendo.io
+#   - DOMAIN-SUFFIX,onetrust.com
+#   - DOMAIN,geolocation.onetrust.com
+#   - DOMAIN,snowplow.apps.clarivate.com
+
+# ResearchGate
+  - DOMAIN-SUFFIX,researchgate.net
+  - DOMAIN-SUFFIX,rgstatic.net
+
+# > National Library of Medicine
+  - DOMAIN-SUFFIX,nih.gov
+  - DOMAIN,ncbi.nlm.nih.gov
+  - DOMAIN,cdn.ncbi.nlm.nih.gov
+
+# > Navisite, Inc.
+  - DOMAIN-SUFFIX,editorialmanager.com
+  - DOMAIN-SUFFIX,scopus.com
+  - DOMAIN-SUFFIX,edmgr.com
+  - DOMAIN,edmgr.ovid.com
+  - DOMAIN-SUFFIX,ariessys.com
+  - DOMAIN-SUFFIX,sciendo.com
+  - IP-CIDR,216.205.0.64/26
+
+# > Medical Science Monitor
+  - DOMAIN-SUFFIX,medscimonit.com
+  - DOMAIN,jours.isi-science.com
+  - DOMAIN-SUFFIX,msubmit.net
+
+# > Frontiersin
+  - DOMAIN-SUFFIX,frontiersin.org
+  - DOMAIN-SUFFIX,core.windows.net
+  - DOMAIN-SUFFIX,rackcdn.com
+  - DOMAIN-SUFFIX,igodigital.com
+  - DOMAIN-SUFFIX,newrelic.com
+  - DOMAIN-SUFFIX,addthis.com
+  - DOMAIN-SUFFIX,visitors.live
+  - DOMAIN-SUFFIX,salesforceliveagent.com
+  - DOMAIN-SUFFIX,qualtrics.com
+  - DOMAIN,frontiers.my.salesforce.com
+  - DOMAIN-SUFFIX,test-frontiersin.net
+  - DOMAIN,api.segment.io
+  - DOMAIN,cdn.cookielaw.org
+  - DOMAIN,cdn.segment.com
+  - DOMAIN,cdn.polyfill.io
+  - DOMAIN,siteintercept.qualtrics.com
+  - DOMAIN-SUFFIX,siteintercept.qualtrics.com
+  - DOMAIN,snap.licdn.com
+
+# > Institute for Research in Fundamental Sciences
+  - DOMAIN-SUFFIX,aimjournal.ir
+
+# > Hetzner Online GmbH
+  - DOMAIN-SUFFIX,spandidos-publications.com
+
+# > Swiftwill, US
+  - DOMAIN-SUFFIX,manuscriptcentral.com
+  - DOMAIN-SUFFIX,etahub.com
+
+# > Wily
+  - DOMAIN-SUFFIX,atyponrex.com
+  - DOMAIN-SUFFIX,wiley.com
+  - DOMAIN,validate.onecount.net
+  - DOMAIN,wileypublishing.sc.omtrdc.net
+  - DOMAIN,wiley.grapeshot.co.uk
+  - DOMAIN,cmp.osano.com
+  - DOMAIN,external-sso.wiley.com
+  - DOMAIN,js-cdn.dynatrace.com
+  - DOMAIN-SUFFIX,112.2o7.net
+  - DOMAIN-SUFFIX,unpkg.com
+  - DOMAIN-SUFFIX,onlinelibrary.wiley.com
+  - DOMAIN,onlinelibrary.wiley.com
+  - DOMAIN-SUFFIX,osano.com
+  - DOMAIN-SUFFIX,pingdom.net
+  - DOMAIN-SUFFIX,riskified.com
+  - DOMAIN-SUFFIX,krxd.net
+  - DOMAIN-SUFFIX,3gl.net
+  - DOMAIN-SUFFIX,alexametrics.co
+  - DOMAIN-SUFFIX,scitrus.com
+  - DOMAIN-SUFFIX,manuscripts.io
+  - DOMAIN-SUFFIX,dynatrace.com
+  - DOMAIN-SUFFIX,scienceconnect.io
+
+# Baishideng
+  - DOMAIN-SUFFIX,f6publishing.com
+  - DOMAIN-SUFFIX,wjgnet.com
+  - DOMAIN-SUFFIX,windows.net
+
+# 学术网站
+# Cambridge
+  - DOMAIN-SUFFIX,cambridge.org
+  - DOMAIN-SUFFIX,crazyegg.com
+  - DOMAIN-SUFFIX,.eu
+
+# Journal on web
+  - DOMAIN-SUFFIX,medknow.com
+  - DOMAIN-SUFFIX,journalonweb.com
+  - DOMAIN-SUFFIX,journalonweb.net
+  - DOMAIN-SUFFIX,journalonweb.in
+
+# Lancet
+  - DOMAIN-SUFFIX,thelancet.com
+  
+# WROCLAW
+  - DOMAIN-SUFFIX,edu.pl
+  - DOMAIN-SUFFIX,wroc.pl
+  - DOMAIN-SUFFIX,.pl
+  
+# NEJM
+  - DOMAIN-SUFFIX,nejm.org
+  - DOMAIN-SUFFIX,nejmcareercenter.org
+  - DOMAIN-SUFFIX,nejmgroup.org
+
+# Others
+  - DOMAIN-SUFFIX,folia-biologica.org
+  - DOMAIN-SUFFIX,minervamedicaonlinesubmission.it
+  - DOMAIN-SUFFIX,pendo.io
+  - DOMAIN-SUFFIX,nr-data.net
+  - DOMAIN-SUFFIX,.edu
+  - DOMAIN-SUFFIX,scholarscentral.org
+  - DOMAIN-SUFFIX,ac.ir
+  - DOMAIN-SUFFIX,medknow.com
+  - DOMAIN-SUFFIX,eymj.org

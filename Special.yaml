@@ -1,0 +1,206 @@
+payload:
+# 特别放行
+  - DOMAIN,speedtest.cros.wr.pvp.net
+  - DOMAIN,nexconvert.com
+  - DOMAIN-SUFFIX,nexconvert.com
+  - DOMAIN-SUFFIX,zerotier.com
+  - DOMAIN-SUFFIX,todesk.com
+  - DOMAIN,www.80599.net
+  - DOMAIN-SUFFIX,missevan.com
+  - DOMAIN,shbu.live.bestvcdn.com.cn
+  - DOMAIN-KEYWORD,jianguoyun
+  - DOMAIN-SUFFIX,peerjs.com
+  - DOMAIN-SUFFIX,deershare.com
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN,cmbsubmission.com
+  - DOMAIN-SUFFIX,cmbsubmission.com
+  - DOMAIN-SUFFIX,ctcxianyu.com
+
+# Zoom.us（测试）
+  - IP-CIDR,170.114.207.0/24
+  # - DOMAIN-SUFFIX,zoom.us#启用后无法登陆账号
+# IPTV
+  - DOMAIN-SUFFIX,myeogm.com
+  - DOMAIN-SUFFIX,bestv.com.cn
+  
+# DDNS 获取 IP
+  - DOMAIN,checkip.dyndns.com
+  - DOMAIN,api.ipify.org.herokudns.com
+  - DOMAIN-SUFFIX,checkip.dyndns.org
+  - DOMAIN-SUFFIX,checkipv6.dyndns.org
+  - DOMAIN-SUFFIX,checkip.synology.com
+  - DOMAIN-SUFFIX,ifconfig.co
+  - DOMAIN-SUFFIX,api.myip.com
+  - DOMAIN-SUFFIX,ip-api.com
+  - DOMAIN-SUFFIX,ipapi.co
+  - DOMAIN-SUFFIX,ip6.seeip.org
+  - DOMAIN-SUFFIX,members.3322.org
+  
+# WeChat 白名单 (全直连体验更好) https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml
+  - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+  - DOMAIN,btrace.qq.com
+  - DOMAIN,dl.wechat.com
+  - DOMAIN,dldir1.qq.com
+  - DOMAIN,sgfindershort.wechat.com
+  - DOMAIN,sgilinkshort.wechat.com
+  - DOMAIN,sglong.wechat.com
+  - DOMAIN,sgminorshort.wechat.com
+  - DOMAIN,sgquic.wechat.com
+  - DOMAIN,sgshort.wechat.com
+  - DOMAIN-SUFFIX,sgshort.wechat.com
+  - DOMAIN,slife.xy-asia.com
+  - DOMAIN,soup.v.qq.com
+  - DOMAIN,tencentmap.wechat.com
+  - DOMAIN,vweixinf.tc.qq.com
+  - DOMAIN,weixin110.qq.com
+  - DOMAIN,wup.imtt.qq.com
+  - DOMAIN,wx.tenpay.com
+  - DOMAIN,wxapp.tc.qq.com
+  - DOMAIN-SUFFIX,iot-tencent.com
+  - DOMAIN-SUFFIX,lbs.gtimg.com
+  - DOMAIN-SUFFIX,map.qq.com
+  - DOMAIN-SUFFIX,qlogo.cn
+  - DOMAIN-SUFFIX,qpic.cn
+  - DOMAIN-SUFFIX,servicewechat.com
+  - DOMAIN-SUFFIX,tenpay.com
+  - DOMAIN-SUFFIX,up-hl.3g.qq.com
+  - DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,wechatlegal.net
+  - DOMAIN-SUFFIX,wechatos.net
+  - DOMAIN-SUFFIX,wechatpay.com
+  - DOMAIN-SUFFIX,wechatpay.cn
+  - DOMAIN-SUFFIX,weixin.com
+  - DOMAIN-SUFFIX,weixin.qq.com
+  - DOMAIN-SUFFIX,weixinbridge.com
+  - DOMAIN-SUFFIX,weixinsxy.com
+  - DOMAIN-SUFFIX,wx.gtimg.com
+  - DOMAIN-SUFFIX,wx.qq.com
+  - DOMAIN-SUFFIX,wxapp.tc.qq.com
+  - DOMAIN-SUFFIX,wxs.qq.com
+  - DOMAIN-SUFFIX,yun-hl.3g.qq.com
+  - IP-CIDR,43.156.222.0/24,no-resolve
+  - IP-CIDR,101.32.0.0/20,no-resolve
+  - IP-CIDR,101.32.102.0/23,no-resolve
+  - IP-CIDR,101.32.104.0/21,no-resolve
+  - IP-CIDR,101.32.112.0/21,no-resolve
+  - IP-CIDR,101.32.120.0/22,no-resolve
+  - IP-CIDR,101.32.133.16/32,no-resolve
+  - IP-CIDR,101.32.133.53/32,no-resolve
+  - IP-CIDR,101.32.133.209/32,no-resolve
+  - IP-CIDR,101.33.17.0/24,no-resolve
+  - IP-CIDR,129.226.3.47/32,no-resolve
+  - IP-CIDR,129.226.107.244/32,no-resolve
+  - IP-CIDR,162.62.163.63/32,no-resolve
+  - IP-CIDR,43.156.192.0/18,no-resolve
+  - IP-CIDR,43.152.112.0/23,no-resolve
+  - IP-CIDR,101.32.96.0/20,no-resolve
+  - IP-CIDR,101.32.104.0/21,no-resolve
+  - IP-CIDR,129.226.0.0/16,no-resolve
+  - IP-CIDR,129.226.2.0/23,no-resolve
+
+# 苹果定位服务
+  - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN,configuration.ls.apple.com
+  - DOMAIN,gspe19-ssl.ls.apple.com
+  - DOMAIN,gspe19-cn-ssl.ls.apple.com
+  - DOMAIN,gspe12-ssl.ls.apple.com
+  - DOMAIN,gspe12-cn-ssl.ls.apple.com
+  - DOMAIN,gspe35-ssl.ls.apple.com
+  - DOMAIN,gsp-ssl.ls.apple.com
+  - DOMAIN,direction2.is.autonavi.com
+  - DOMAIN,dispatcher.is.autonavi.com
+  - DOMAIN,gs-loc-cn.apple.com
+  - DOMAIN-SUFFIX,apple.com.cn
+   
+# 漫播
+  - DOMAIN-SUFFIX,hongdoulive.com
+  - DOMAIN-SUFFIX,hongrenshuo.com.cn
+
+# WG 穿透
+  - DOMAIN,checkip.synology.com
+  - DOMAIN,ipinfo.io
+  - DOMAIN-SUFFIX,ipinfo.io
+  - DOMAIN-SUFFIX,inet.af
+  - DOMAIN-SUFFIX,tailscale.io
+
+# 润色（IP在北京，不需要代理）
+  - DOMAIN-SUFFIX,enago.cn
+  - DOMAIN-SUFFIX,amazonaws.com.cn
+
+  # 杂项
+  # - DOMAIN,m.hotmail.com
+  - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-SUFFIX,hotmail.com
+  # - DOMAIN,captive.apple.com
+  # - DOMAIN-KEYWORD,buy.itunes.apple.com
+  
+  # > Proxy plugin
+  - PROCESS-NAME,v2ray
+  - PROCESS-NAME,ss-local
+
+  # > Steam
+  - DOMAIN-SUFFIX,pinyuncloud.com
+  - DOMAIN-SUFFIX,steamcontent.com
+
+  # > Tesla
+  - DOMAIN-SUFFIX,tesla.cn
+  - DOMAIN-SUFFIX,tesla-cdn.thron.cn
+
+  # > UUBooster
+  - PROCESS-NAME,UUBooster
+
+  # > Xunlei
+  - DOMAIN-SUFFIX,xunlei.com
+
+  # > Download
+  # - PROCESS-NAME,aria2c.exe
+  # - PROCESS-NAME,BitComet.exe
+  # - PROCESS-NAME,fdm.exe
+  # - PROCESS-NAME,NetTransport.exe
+  # - PROCESS-NAME,qbittorrent.exe
+  # - PROCESS-NAME,Thunder.exe
+  # - PROCESS-NAME,transmission-daemon.exe
+  # - PROCESS-NAME,transmission-qt.exe
+  # - PROCESS-NAME,uTorrent.exe
+  # - PROCESS-NAME,WebTorrent.exe
+  # - PROCESS-NAME,aria2c
+  # - PROCESS-NAME,fdm
+  # - PROCESS-NAME,Folx
+  # - PROCESS-NAME,NetTransport
+  # - PROCESS-NAME,qbittorrent
+  # - PROCESS-NAME,Thunder
+  # - PROCESS-NAME,Transmission
+  # - PROCESS-NAME,uTorrent
+  # - PROCESS-NAME,WebTorrent
+  # - PROCESS-NAME,WebTorrent Helper
+
+  # > Private Tracker
+  - DOMAIN-SUFFIX,awesome-hd.me
+  - DOMAIN-SUFFIX,broadcasthe.net
+  - DOMAIN-SUFFIX,chdbits.co
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk
+  - DOMAIN-SUFFIX,empornium.me
+  - DOMAIN-SUFFIX,gazellegames.net
+  - DOMAIN-SUFFIX,hdchina.org
+  - DOMAIN-SUFFIX,hdsky.me
+  - DOMAIN-SUFFIX,icetorrent.org
+  - DOMAIN-SUFFIX,jpopsuki.eu
+  - DOMAIN-SUFFIX,keepfrds.com
+  - DOMAIN-SUFFIX,madsrevolution.net
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,nanyangpt.com
+  - DOMAIN-SUFFIX,ncore.cc
+  - DOMAIN-SUFFIX,open.cd
+  - DOMAIN-SUFFIX,ourbits.club
+  - DOMAIN-SUFFIX,passthepopcorn.me
+  - DOMAIN-SUFFIX,privatehd.to
+  - DOMAIN-SUFFIX,redacted.ch
+  - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,tjupt.org
+  - DOMAIN-SUFFIX,totheglory.im
+
+  - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,tracker
+  # - DOMAIN-SUFFIX,smtp
