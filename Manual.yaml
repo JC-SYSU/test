@@ -49,3 +49,4 @@ payload:
   - DOMAIN,browser.events.data.microsoft.com
   - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,chatgpt.com
