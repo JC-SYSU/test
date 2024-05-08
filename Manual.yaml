@@ -50,3 +50,4 @@ payload:
   - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,zhihu.com
