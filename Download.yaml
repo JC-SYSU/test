@@ -9,3 +9,9 @@ payload:
   - DOMAIN-SUFFIX,mediafire.com
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,dl-faster.xyz
+  - DOMAIN-SUFFIX,mega.nz
+  - DOMAIN-SUFFIX,massgrave.dev
+  - DOMAIN-SUFFIX,software.download.prss.microsoft.com
+  - DOMAIN-SUFFIX,download.openwrt.org
+  - DOMAIN-SUFFIX,enterprise.proxmox.com
