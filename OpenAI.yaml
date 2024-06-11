@@ -57,6 +57,7 @@ payload:
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,openaiapi
   - DOMAIN-KEYWORD,openaipublic
+  - DOMAIN,auth.openai.com
 
 # Bing 国际版走美国线路
   - DOMAIN-SUFFIX,msn.com
