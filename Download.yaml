@@ -21,3 +21,4 @@ payload:
   - DOMAIN-SUFFIX,software.download.prss.microsoft.com
   - DOMAIN-SUFFIX,download.openwrt.org
   - DOMAIN-SUFFIX,enterprise.proxmox.com
+  - DOMAIN-SUFFIX,ezgif.com
