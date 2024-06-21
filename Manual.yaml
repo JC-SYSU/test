@@ -51,3 +51,4 @@ payload:
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-SUFFIX,chatgpt.com
   # - DOMAIN-SUFFIX,zhihu.com
+  - DOMAIN,lens.l.google.com
