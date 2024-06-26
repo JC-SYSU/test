@@ -57,3 +57,4 @@ payload:
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,openaiapi
   - DOMAIN-KEYWORD,openaipublic
+  - DOMAIN-KEYWORD,chatgpt

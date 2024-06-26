@@ -15,13 +15,6 @@ payload:
   - DOMAIN,cmbsubmission.com
   - DOMAIN-SUFFIX,cmbsubmission.com
   - DOMAIN-SUFFIX,ctcxianyu.com
-
-# Zoom.us（测试）
-  - IP-CIDR,170.114.207.0/24
-  # - DOMAIN-SUFFIX,zoom.us#启用后无法登陆账号
-# IPTV
-  - DOMAIN-SUFFIX,myeogm.com
-  - DOMAIN-SUFFIX,bestv.com.cn
   
 # DDNS 获取 IP
   - DOMAIN,checkip.dyndns.com
