@@ -58,3 +58,4 @@ payload:
   - DOMAIN-KEYWORD,openaiapi
   - DOMAIN-KEYWORD,openaipublic
   - DOMAIN-KEYWORD,chatgpt
+  - IP-CIDR,64.13.192.0/24
