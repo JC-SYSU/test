@@ -91,6 +91,15 @@ payload:
   - IP-CIDR,101.32.104.0/21,no-resolve
   - IP-CIDR,129.226.0.0/16,no-resolve
   - IP-CIDR,129.226.2.0/23,no-resolve
+  - IP-CIDR,101.32.104.4/32,no-resolve
+  - IP-CIDR,101.32.104.41/32,no-resolve
+  - IP-CIDR,101.32.104.56/32,no-resolve
+  - P-CIDR,101.32.118.25/32,no-resolve
+  - IP-CIDR,101.32.133.16/32,no-resolve
+  - IP-CIDR,101.32.133.53/32,no-resolve
+  - IP-CIDR,101.32.133.209/32,no-resolve
+  - IP-CIDR,129.226.3.47/32,no-resolve
+  - IP-CIDR,129.226.107.244/32,no-resolve
 
 # 苹果定位服务
   - DOMAIN,gspe1-ssl.ls.apple.com
