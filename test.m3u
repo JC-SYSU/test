@@ -1,0 +1,167 @@
+#EXTM3U
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://123.138.216.44:9902/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://123.189.36.4:9901/tsfile/live/1156_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://222.137.229.154:808/hls/1/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+https://epg.pw/stream/8f2fe0a36753daf5033df67666c94fbcb82d57e5f326733baa3fa5526c3c0bcd.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://112.123.206.32:808/hls/1/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226016/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://58.48.37.158:1111/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://223.106.228.16/mgsp-tx.live.miguvideo.com/wd_r2/cctv/cctv1hd/1200/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://218.3.138.25:1111/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://120.87.97.246:8114/GD_CUCC/G_CCTV-1-CQ.m3u8?Authinfo=56fbZo0WT6rfM%2FXuA%2B6zBVJJZNDYjNTYW0xrj2atp5krmovGfhet3wgtKVBhIbxM&p=GITV&area=GD_CUCC&partnerCode=GD_CUCC&token=0C760427464F16BC52147D30B20FE4AFCF076375187B56B35E8BDB02A2F6902DE9292062EA71D873A44BBEEB2412BDB1EC6FB05780A8EA269429663960F75A0E38AD629F8C7EE56B792DC687DBB007AA5A7E6BA759697151C58F0015A49D684681688F54CF181FEA9885C669F98E6157C28D65F01F79AD703ABEC36AB5501CEAAAA270038E8B9D34B33962FE84B6D2A996DBE32DF2BA88F913DE2ED98DD12A30&version=0.0.0.0&apkVersion=4.2.19&mac=fc:57:03:56:49:16&multicast=0&platform=LIVE&gAreaId=CHN&gAppChannel=DEFAULT&gSoftTermId=TERMINAL&gManufacturer=Hisense&gModel=IP108H&gMac=fc:57:03:56:49:16&gStbId=00000444000710800001FC5703564916&gOsType=android&gOsVersion=4.4.2&gApiLevel=19&gAppVersionCode=4219&gAppVersionName=4.2.19&gDowngrade=EMERGENCY&gProductLineCode=LIVOD&gRomVersion=3.17.2.4602&gTimestamp=1714141158688&gRequests=1&gThirdPartyCDN=0&gGroupCode=&gUserId=002040101532912&isIty=0&gCityCode=DEFAULT&verType=0&Fsv_Tgid=515e96acf29ccb8a&FvSeid=88fe5578aee15bbe&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=4298&Fsv_chan_hls_se_idx=60&Fsv_TBt=8468056&Fsv_ShiftEnable=1&Fsv_ShiftTsp=120&Fsv_SV_PARAM1=0&Fsv_otype=0&Provider_id=GD_CUCC&Pcontent_id=G_CCTV-1-CQ&Fsv_CMSID=GD_CUCC
+#EXTINF:-1 group-title="央视频道",CCTV1
+https://live.goodiptv.club/api/bestv.php?id=cctv1hd8m/8000000
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://183.0.186.75:9900/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://121.19.134.225:808/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://hikvision.city:880/CCTV-1.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://27.40.16.70:8114/GD_CUCC/G_CCTV-1-CQ.m3u8?Authinfo=F8UQ%2BEevMmd%2FnekE5YOOKkjJ6yQpJZ9CGFM9sHS3VdiLvaf2eXKnEWpoNjJ53rwe&p=GITV&area=GD_CUCC&partnerCode=GD_CUCC&token=0C760427464F16BC52147D30B20FE4AFCF076375187B56B35E8BDB02A2F6902DE9292062EA71D873A44BBEEB2412BDB1EC6FB05780A8EA269429663960F75A0E38AD629F8C7EE56B792DC687DBB007AA5A7E6BA759697151C58F0015A49D684681688F54CF181FEA9885C669F98E6157C28D65F01F79AD703ABEC36AB5501CEAAAA270038E8B9D34B33962FE84B6D2A996DBE32DF2BA88F913DE2ED98DD12A30&version=0.0.0.0&apkVersion=4.2.33&mac=fc:57:03:56:49:16&multicast=0&platform=LIVE&gAreaId=CHN&gAppChannel=DEFAULT&gSoftTermId=TERMINAL&gManufacturer=Hisense&gModel=IP108H&gMac=fc:57:03:56:49:16&gStbId=00000444000710800001FC5703564916&gOsType=android&gOsVersion=4.4.2&gApiLevel=19&gAppVersionCode=4233&gAppVersionName=4.2.33&gDowngrade=EMERGENCY&gProductLineCode=LIVOD&gRomVersion=3.17.2.4602&gTimestamp=1715183611097&gRequests=1&gThirdPartyCDN=0&gGroupCode=&gUserId=002040101532912&isIty=1&gCityCode=DEFAULT&verType=0&Fsv_Tgid=517e65f76ef0fc78&FvSeid=77fd5578ee7feea2&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=4276&Fsv_chan_hls_se_idx=60&Fsv_TBt=8466552&Fsv_ShiftEnable=1&Fsv_ShiftTsp=120&Fsv_SV_PARAM1=0&Fsv_otype=0&Provider_id=GD_CUCC&Pcontent_id=G_CCTV-1-CQ&Fsv_CMSID=GD_CUCC
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://118.248.172.210:8088/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+https://epg.pw/stream/7571be7517df6df6bcc71c21ab322ff1359bf258421cfa8c310b5879ac535dc4.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+https://epg.pw/stream/429ae5e0377c05e43ec9fa7aae9d77ccafe257fdca1816d8044bfd285f231613.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://58.216.99.148:80/live2.rxip.sc96655.com/live/CCTV-1H265_4000.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://121.24.99.42:8090/hls/9/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://116.162.6.191/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225490/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://123.189.36.39:9901/tsfile/live/1156_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://113.92.222.115:808/hls/19/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+https://event.pull.hebtv.com/jishi/cp3.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+https://epg.pw/stream/0708164a2201ab82eb0c3f2d3ede428571b1b4bb1b8d3cfb3a9ed1201dd2fe68.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN111128BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUU6FFmRK8Hl0ytyd5e5kWGEwoDIwMxbrlyyVy9x6ZDKnldIYKOjBOUjRyoym5n7Kg0yIYstFTUfqtC14fzxhy5Y
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://113.57.103.216:9000/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://117.27.190.42:9998/tsfile/live/23232_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://223.159.8.145:8099/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://222.241.154.37:9901/tsfile/live/23001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://171.8.244.248:808/hls/1/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://58.51.111.46:1111/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010144/1.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://cdn.jdshipin.com:8880/ysp.php?id=cctv1
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://123.112.208.22:4022/rtp/239.3.1.129:8008
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://118.122.2.29:9999/hls/1/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://119.39.97.2:9002/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://2918ce.netsite.cc/proxy/1964731068/1964731068.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://36.40.236.175:9999/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://123.160.174.231:85/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000131/index.m3u8?IAS
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://171.117.28.131:9999/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+https://epg.pw/stream/b8dcdc7ba56cbf09277896dfa81c05756e3da4cc48c5b0ad6ea090ab987fb77a.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://223.159.11.52:8099/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://597ca2.netsite.cc/proxy/1964731068/1964731068.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+https://epg.pw/stream/607c5648b5a826285f1e94ceab76066c767e2ba5e1623b753a6ab2f4e380199d.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://171.116.59.153:9999/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://14.212.185.27:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://36.40.237.67:9999/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+https://epg.pw/stream/9b729e6c878984d044d0552a24528d74fe7ef50bf62542ff952688d80f70e770.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://171.8.245.118:808/hls/1/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://118.248.218.181:8088/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://171.8.65.42:808/hls/1/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://106.46.114.6:8011/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://125.82.168.238:8888/rtp/235.254.198.51:1480
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://121.24.99.109:8090/hls/9/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://58.57.21.166:9901/tsfile/live/0001_1.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+https://epg.pw/stream/9c278a43d5bf7e515412f079507a71cfb8a263ff4938b30757880c9c7cd972b7.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226565/index.m3u8
+#EXTINF:60,CCTV-5#EXTVLCOPT:network-caching=1000
+http://58.216.99.148:80/live2.rxip.sc96655.com/live/CCTV-5H265_4000.m3u8
+#EXTINF:60,CCTV-5+#EXTVLCOPT:network-caching=1000
+http://58.216.99.148:80/live2.rxip.sc96655.com/live/CCTV-5plusH265_4000.m3u8
+#EXTINF:60,CCTV-8#EXTVLCOPT:network-caching=1000
+https://node1.olelive.com:6443/live/CCTV8HD/hls.m3u8
+#EXTINF:60,CCTV-9#EXTVLCOPT:network-caching=1000
+https://node1.olelive.com:6443/live/CCTV9HD/hls.m3u8
+#EXTINF:60,CCTV-13#EXTVLCOPT:network-caching=1000
+https://node1.olelive.com:6443/live/CCTV13HD/hls.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV3(4K)
+http://[2409:8087:2001:20:2800:0:df6e:eb20]/ott.mobaibox.com/PLTV/4/224/3221228499/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV5(4K)
+http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228502/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV6(4K)
+http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228516/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV16(4K)
+https://live.goodiptv.club/api/bestv.php?id=cctv16hd4k/15000000
+#EXTINF:-1 group-title="央视频道",CCTV4K
+http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/1.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV4K
+http://27.222.3.214/liveali-tp4K.cctv.cn/live/4K10M.stream/playlist.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV4K
+http://159.75.85.63:5679/cctv4k.php
+#EXTINF:-1 group-title="央视频道",CCTV4K
+http://113.96.179.241/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV4K
+https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
+#EXTINF:-1 group-title="央视频道",CCTV4K
+http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV8K
+http://159.75.85.63:8765/xxtv8k.php
+#EXTINF:-1 group-title="央视频道",CCTV8K
+http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1981574683_-2118700426/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8?icpid=3&RTS=1659435610&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
+#EXTINF:-1 group-title="央视频道",CCTV8K
+http://159.75.85.63:8654/xx8k50fps.php
