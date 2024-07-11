@@ -134,8 +134,6 @@ payload:
   # - DOMAIN,m.hotmail.com
   - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-SUFFIX,hotmail.com
-  # - DOMAIN,captive.apple.com
-  # - DOMAIN-KEYWORD,buy.itunes.apple.com
   
   # > Proxy plugin
   - PROCESS-NAME,v2ray
