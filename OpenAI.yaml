@@ -1,102 +1,54 @@
 payload:
-# OPENAI所用到的服务相关域名，包括Google和CloudFlare的人机验证之类
-
-  - DOMAIN,cdn.auth0.com  
-  - DOMAIN,chat.openai.com       
-  - DOMAIN-SUFFIX,anthropic.com 
-  - DOMAIN-SUFFIX,vimeocdn.com 
-  - DOMAIN-SUFFIX,blob.core.windows.net 
-  - DOMAIN-SUFFIX,googleapis.com 
-  - DOMAIN-SUFFIX,openaicom.imgix.net 
-  - DOMAIN-SUFFIX,azurefd.net 
-  - DOMAIN-SUFFIX,azureedge.net 
-  - DOMAIN-SUFFIX,cdn.cloudflare.net 
-  - DOMAIN-SUFFIX,challenges.cloudflare.com 
-  - DOMAIN-SUFFIX,cloudflareinsights.com 
-  - DOMAIN-SUFFIX,hcaptcha.com 
-  - DOMAIN-SUFFIX,akamaized.net 
-  - DOMAIN-SUFFIX,gstatic.com 
-  - DOMAIN-SUFFIX,vimeo.com 
-  - DOMAIN-SUFFIX,f7tk.com 
-  - DOMAIN-SUFFIX,doubleclick.net 
-  - DOMAIN-SUFFIX,google-analytics.com 
-  - DOMAIN-SUFFIX,bard.google.com 
-  - DOMAIN-SUFFIX,googletagmanager.com 
-  - DOMAIN-SUFFIX,ai.com 
-  - DOMAIN-SUFFIX,openai.com 
-  - DOMAIN-SUFFIX,pay.openai.com 
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net 
-  - DOMAIN-SUFFIX,chat.openai.com 
-  - DOMAIN-SUFFIX,auth0.openai.com 
-  - DOMAIN-SUFFIX,platform.openai.com 
-  - DOMAIN-SUFFIX,intercom.io 
-  - DOMAIN-SUFFIX,statsigapi.net 
-  - DOMAIN-SUFFIX,featuregates.org 
-  - DOMAIN-SUFFIX,intercomcdn.com 
-  - DOMAIN-SUFFIX,pki.goog 
-  - DOMAIN-SUFFIX,identrust.com 
-  - DOMAIN-SUFFIX,edgecompute.app 
-  - DOMAIN-SUFFIX,compute-pipe.com 
-  - DOMAIN-SUFFIX,stripe.com 
-  - DOMAIN-SUFFIX,invoice.stripe.com 
-  - DOMAIN-SUFFIX,stripe.network 
-  - DOMAIN-SUFFIX,gpt3sandbox.com 
-  - DOMAIN-SUFFIX,sentry.io 
-  - DOMAIN-SUFFIX,hcaptcha.com 
-  - DOMAIN-SUFFIX,recaptcha.net 
-  - DOMAIN-SUFFIX,msftconnecttest.com 
-  - DOMAIN-SUFFIX,poe.com 
-  - DOMAIN,auth.openai.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,openaicom.imgix.net
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-KEYWORD,openaiapi
-  - DOMAIN-KEYWORD,openaipublic
-  - DOMAIN-KEYWORD,chatgpt
-  - IP-CIDR,64.13.192.0/24
-
-# OpenAI
-# > ChatGPT
+  # 2024-07-25 14:56:45
+  # ChatGPT
+  - AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus-),(DOMAIN-SUFFIX,webpubsub.azure.com))
+  - AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,o33249.ingest.sentry.io
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,openaicom.imgix.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openai.com
-  - DOMAIN,api.statsig.com
-  - DOMAIN,api-iam.intercom.io
-  - DOMAIN,chatgpt.livekit.cloud
-  - DOMAIN,o33249.ingest.sentry.io
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN,sfo3.turn.livekit.cloud
-  - DOMAIN-KEYWORD,openaicom
 
-# Anthropic
-# > Claude
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,anthropic.com
-
-# Google
-# > Gemini
-  - DOMAIN,ai.google.dev
-  - DOMAIN,bard.google.com
-  - DOMAIN,gemini.google.com
-  - DOMAIN,generativelanguage.googleapis.com
-# > AI Studio
-  - DOMAIN,aistudio.google.com
-  - DOMAIN,alkalimakersuite-pa.clients6.google.com
-
-# JetBrains AI
-  - DOMAIN-SUFFIX,grazie.ai
-
-# Microsoft
-# > Copilot
+  # Copilot
+  - DOMAIN,api.githubcopilot.com
+  - DOMAIN,copilot-proxy.githubusercontent.com
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,sydney.bing.com
   - DOMAIN,www.bing.com
 
-# Meta
+  # Gemini
+  - DOMAIN,bard.google.com
+  - DOMAIN,gemini.google.com
+  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,ai.google.dev
+  - DOMAIN,aida.googleapis.com
+  - DOMAIN,aistudio.google.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,makersuite.google.com
+
+  # Claude
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - IP-CIDR,160.79.104.0/23,no-resolve
+  - IP-CIDR6,2607:6bc0::/48,no-resolve
+
+  # JetBrains AI
+  - DOMAIN-SUFFIX,grazie.ai
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net
+
+  # Meta AI
   - DOMAIN,imagine.meta.com
+  - DOMAIN-SUFFIX,meta.ai
+
+  # Perplexity
+  - DOMAIN-SUFFIX,perplexity.ai
+
+  # Mistral AI
+  - DOMAIN,chat.mistral.ai
+  - DOMAIN,console.mistral.ai
+  - DOMAIN-SUFFIX,mistral.ai
