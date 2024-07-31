@@ -14,13 +14,6 @@ payload:
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openai.com
 
-  # Copilot
-  - DOMAIN,api.githubcopilot.com
-  - DOMAIN,copilot-proxy.githubusercontent.com
-  - DOMAIN,copilot.microsoft.com
-  - DOMAIN,sydney.bing.com
-  - DOMAIN,www.bing.com
-
   # Gemini
   - DOMAIN,bard.google.com
   - DOMAIN,gemini.google.com
