@@ -40,6 +40,8 @@ payload:
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
 
+  - DOMAIN-SUFFIX,libnnc.org
+
 # # App Store
 # # Store content such as apps, books, and music
 #   - DOMAIN-SUFFIX,apps.apple.com
