@@ -20,6 +20,7 @@ payload:
   - DOMAIN,cmbsubmission.com
   - DOMAIN-SUFFIX,cmbsubmission.com
   - DOMAIN-SUFFIX,ctcxianyu.com
+  - DOMAIN-SUFFIX,torrentmac.net
   
 # DDNS 获取 IP
   - DOMAIN,checkip.dyndns.com
