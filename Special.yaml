@@ -9,18 +9,12 @@ payload:
   - DOMAIN,nexconvert.com
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,zerotier.com
-  - DOMAIN-SUFFIX,todesk.com
-  - DOMAIN,www.80599.net
-  - DOMAIN-SUFFIX,missevan.com
-  - DOMAIN,shbu.live.bestvcdn.com.cn
-  - DOMAIN-KEYWORD,jianguoyun
-  - DOMAIN-SUFFIX,peerjs.com
-  - DOMAIN-SUFFIX,deershare.com
-  - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN,cmbsubmission.com
-  - DOMAIN-SUFFIX,cmbsubmission.com
+  # - DOMAIN-SUFFIX,peerjs.com
+  # - DOMAIN-SUFFIX,deershare.com
+  # - DOMAIN-SUFFIX,app-measurement.com
+  # - DOMAIN,cmbsubmission.com
+  # - DOMAIN-SUFFIX,cmbsubmission.com
   - DOMAIN-SUFFIX,ctcxianyu.com
-  # - DOMAIN-SUFFIX,torrentmac.net
   
 # DDNS 获取 IP
   - DOMAIN,checkip.dyndns.com
@@ -88,10 +82,6 @@ payload:
   # - DOMAIN,dispatcher.is.autonavi.com
   # - DOMAIN,gs-loc-cn.apple.com
   # - DOMAIN-SUFFIX,apple.com.cn
-   
-# 漫播
-  - DOMAIN-SUFFIX,hongdoulive.com
-  - DOMAIN-SUFFIX,hongrenshuo.com.cn
 
 # WG 穿透
   - DOMAIN,checkip.synology.com
@@ -128,53 +118,50 @@ payload:
   - DOMAIN-SUFFIX,xunlei.com
 
   # > Download
-  # - PROCESS-NAME,aria2c.exe
-  # - PROCESS-NAME,BitComet.exe
-  # - PROCESS-NAME,fdm.exe
-  # - PROCESS-NAME,NetTransport.exe
-  # - PROCESS-NAME,qbittorrent.exe
-  # - PROCESS-NAME,Thunder.exe
-  # - PROCESS-NAME,transmission-daemon.exe
-  # - PROCESS-NAME,transmission-qt.exe
-  # - PROCESS-NAME,uTorrent.exe
-  # - PROCESS-NAME,WebTorrent.exe
-  # - PROCESS-NAME,aria2c
-  # - PROCESS-NAME,fdm
-  # - PROCESS-NAME,Folx
-  # - PROCESS-NAME,NetTransport
-  # - PROCESS-NAME,qbittorrent
-  # - PROCESS-NAME,Thunder
-  # - PROCESS-NAME,Transmission
-  # - PROCESS-NAME,uTorrent
-  # - PROCESS-NAME,WebTorrent
-  # - PROCESS-NAME,WebTorrent Helper
+  - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,BitComet.exe
+  - PROCESS-NAME,fdm.exe
+  - PROCESS-NAME,NetTransport.exe
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,Thunder.exe
+  - PROCESS-NAME,transmission-daemon.exe
+  - PROCESS-NAME,transmission-qt.exe
+  - PROCESS-NAME,uTorrent.exe
+  - PROCESS-NAME,WebTorrent.exe
+  - PROCESS-NAME,aria2c
+  - PROCESS-NAME,fdm
+  - PROCESS-NAME,Folx
+  - PROCESS-NAME,NetTransport
+  - PROCESS-NAME,qbittorrent
+  - PROCESS-NAME,Thunder
+  - PROCESS-NAME,Transmission
+  - PROCESS-NAME,uTorrent
+  - PROCESS-NAME,WebTorrent
+  - PROCESS-NAME,WebTorrent Helper
 
   # > Private Tracker
-  # - DOMAIN-SUFFIX,awesome-hd.me
-  # - DOMAIN-SUFFIX,broadcasthe.net
-  # - DOMAIN-SUFFIX,chdbits.co
-  # - DOMAIN-SUFFIX,classix-unlimited.co.uk
-  # - DOMAIN-SUFFIX,empornium.me
-  # - DOMAIN-SUFFIX,gazellegames.net
-  # - DOMAIN-SUFFIX,hdchina.org
-  # - DOMAIN-SUFFIX,hdsky.me
-  # - DOMAIN-SUFFIX,icetorrent.org
-  # - DOMAIN-SUFFIX,jpopsuki.eu
-  # - DOMAIN-SUFFIX,keepfrds.com
-  # - DOMAIN-SUFFIX,madsrevolution.net
-  # - DOMAIN-SUFFIX,m-team.cc
-  # - DOMAIN-SUFFIX,nanyangpt.com
-  # - DOMAIN-SUFFIX,ncore.cc
-  # - DOMAIN-SUFFIX,open.cd
-  # - DOMAIN-SUFFIX,ourbits.club
-  # - DOMAIN-SUFFIX,passthepopcorn.me
-  # - DOMAIN-SUFFIX,privatehd.to
-  # - DOMAIN-SUFFIX,redacted.ch
-  # - DOMAIN-SUFFIX,springsunday.net
-  # - DOMAIN-SUFFIX,tjupt.org
-  # - DOMAIN-SUFFIX,totheglory.im
+  - DOMAIN-SUFFIX,awesome-hd.me
+  - DOMAIN-SUFFIX,broadcasthe.net
+  - DOMAIN-SUFFIX,chdbits.co
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk
+  - DOMAIN-SUFFIX,empornium.me
+  - DOMAIN-SUFFIX,gazellegames.net
+  - DOMAIN-SUFFIX,hdchina.org
+  - DOMAIN-SUFFIX,hdsky.me
+  - DOMAIN-SUFFIX,icetorrent.org
+  - DOMAIN-SUFFIX,jpopsuki.eu
+  - DOMAIN-SUFFIX,keepfrds.com
+  - DOMAIN-SUFFIX,madsrevolution.net
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,nanyangpt.com
+  - DOMAIN-SUFFIX,ncore.cc
+  - DOMAIN-SUFFIX,open.cd
+  - DOMAIN-SUFFIX,ourbits.club
+  - DOMAIN-SUFFIX,passthepopcorn.me
+  - DOMAIN-SUFFIX,privatehd.to
+  - DOMAIN-SUFFIX,redacted.ch
+  - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,tjupt.org
+  - DOMAIN-SUFFIX,totheglory.im
 
-  # - DOMAIN-KEYWORD,announce
-  # - DOMAIN-KEYWORD,torrent
-  - DOMAIN-KEYWORD,tracker
   - DOMAIN-SUFFIX,smtp
