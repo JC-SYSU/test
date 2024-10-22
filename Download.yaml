@@ -5,6 +5,8 @@ payload:
   - DOMAIN-SUFFIX,digit77.com
   - DOMAIN-SUFFIX,minorpatch.com
   - DOMAIN-SUFFIX,nmac.to
+  - DOMAIN-SUFFIX,appstorrent.ru
+  - DOMAIN-SUFFIX,yandex.ru
   - DOMAIN-SUFFIX,userapi.com
   - DOMAIN-SUFFIX,mediafire.com
   - DOMAIN-SUFFIX,mediafiredls.com
