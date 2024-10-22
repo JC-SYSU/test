@@ -42,7 +42,6 @@ payload:
   - DOMAIN-KEYWORD,skydrive
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
-
   - DOMAIN-SUFFIX,libnnc.org
 
 # # App Store
