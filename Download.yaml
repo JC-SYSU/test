@@ -10,6 +10,8 @@ payload:
   - DOMAIN-SUFFIX,userapi.com
   - DOMAIN-SUFFIX,mediafire.com
   - DOMAIN-SUFFIX,mediafiredls.com
+  - DOMAIN-SUFFIX,ezoic.net
+  - DOMAIN-SUFFIX,ezodn.com
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,dl.google.com
   - DOMAIN,www.googleapis.com
