@@ -1,6 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,calibre-ebook.com
   - DOMAIN,challenges.cloudflare.com
+  - DOMAIN,osx.telegram.org
   - DOMAIN,ouo.io
   - DOMAIN,appstorrent.ru
   - DOMAIN-SUFFIX,digit77.com
