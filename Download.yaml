@@ -28,7 +28,7 @@ payload:
   - DOMAIN-SUFFIX,massgrave.dev
   - DOMAIN-SUFFIX,software.download.prss.microsoft.com
   - DOMAIN-SUFFIX,download.openwrt.org
-  - DOMAIN-SUFFIX,enterprise.proxmox.com
+  - DOMAIN-SUFFIX,proxmox.com
   - DOMAIN-SUFFIX,ezgif.com
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,livefilestore.com
