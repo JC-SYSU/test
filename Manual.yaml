@@ -1,33 +1,33 @@
 payload:
  # Simcity 优化（直连防止联赛任务无法打开）
-  - DOMAIN-SUFFIX,glulive.com
-  - DOMAIN-SUFFIX,simcitybuildit.com
-  - DOMAIN-KEYWORD,citydesignchallenge
-  - DOMAIN-SUFFIX,eamobile.com
-  - DOMAIN-SUFFIX,unity3d.com
-  - DOMAIN-SUFFIX,glulive.com
-  - DOMAIN-SUFFIX,ea.com
-  - DOMAIN-SUFFIX,tnt-ea.com
-  - DOMAIN-SUFFIX,unity3dusercontent.com
-  - DOMAIN,scbi-citydesignchallenge-screenshots-prod.s3.amazonaws.com
-  - DOMAIN-SUFFIX,us-east-1.amazonaws.com
-  - DOMAIN,sts.amazonaws.com
-  - DOMAIN,kinesis.us-east-1.amazonaws.com
-  - DOMAIN,in.appcenter.ms
+  # - DOMAIN-SUFFIX,glulive.com
+  # - DOMAIN-SUFFIX,simcitybuildit.com
+  # - DOMAIN-KEYWORD,citydesignchallenge
+  # - DOMAIN-SUFFIX,eamobile.com
+  # - DOMAIN-SUFFIX,unity3d.com
+  # - DOMAIN-SUFFIX,glulive.com
+  # - DOMAIN-SUFFIX,ea.com
+  # - DOMAIN-SUFFIX,tnt-ea.com
+  # - DOMAIN-SUFFIX,unity3dusercontent.com
+  # - DOMAIN,scbi-citydesignchallenge-screenshots-prod.s3.amazonaws.com
+  # - DOMAIN-SUFFIX,us-east-1.amazonaws.com
+  # - DOMAIN,sts.amazonaws.com
+  # - DOMAIN,kinesis.us-east-1.amazonaws.com
+  # - DOMAIN,in.appcenter.ms
   # - DOMAIN-SUFFIX,app-measurement.com # ip 地址在广东
-  - DOMAIN-SUFFIX,adcolony.com
-  - DOMAIN-SUFFIX,applovin.com
-  - DOMAIN-SUFFIX,tapjoy.com
-  - DOMAIN-SUFFIX,singular.net
-  - DOMAIN-SUFFIX,ssacdn.com
-  - DOMAIN-SUFFIX,supersonicads.com
-  - DOMAIN-SUFFIX,amazontrust.com
-  - DOMAIN-SUFFIX,tapjoyads.com
-  - DOMAIN-SUFFIX,applvn.com
-  - IP-CIDR,34.204.26.0/24
-  - DOMAIN-SUFFIX,anzuinfra.com
-  - DOMAIN-SUFFIX,anzu.io
-  - DOMAIN,download-installer.cdn.mozilla.net
+  # - DOMAIN-SUFFIX,adcolony.com
+  # - DOMAIN-SUFFIX,applovin.com
+  # - DOMAIN-SUFFIX,tapjoy.com
+  # - DOMAIN-SUFFIX,singular.net
+  # - DOMAIN-SUFFIX,ssacdn.com
+  # - DOMAIN-SUFFIX,supersonicads.com
+  # - DOMAIN-SUFFIX,amazontrust.com
+  # - DOMAIN-SUFFIX,tapjoyads.com
+  # - DOMAIN-SUFFIX,applvn.com
+  # - IP-CIDR,34.204.26.0/24
+  # - DOMAIN-SUFFIX,anzuinfra.com
+  # - DOMAIN-SUFFIX,anzu.io
+  # - DOMAIN,download-installer.cdn.mozilla.net
 
 # Bing 国际版走美国线路
   - DOMAIN-SUFFIX,bing.com
