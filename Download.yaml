@@ -49,7 +49,7 @@ payload:
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
   - DOMAIN-SUFFIX,libnnc.org
-
+  - DOMAIN-SUFFIX,civitai.com
 # # App Store
 # # Store content such as apps, books, and music
 #   - DOMAIN-SUFFIX,apps.apple.com
