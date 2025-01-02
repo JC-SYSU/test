@@ -26,6 +26,7 @@ payload:
   - DOMAIN-SUFFIX,dl-faster.xyz
   - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,massgrave.dev
+  - DOMAIN-SUFFIX,delivery.activated.win
   - DOMAIN-SUFFIX,software.download.prss.microsoft.com
   - DOMAIN-SUFFIX,download.openwrt.org
   - DOMAIN-SUFFIX,proxmox.com
