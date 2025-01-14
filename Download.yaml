@@ -3,6 +3,7 @@ payload:
   - DOMAIN,challenges.cloudflare.com
   - DOMAIN,osx.telegram.org
   - DOMAIN,ouo.io
+  - DOMAIN-KEYWORD,torrent
   - DOMAIN,appstorrent.ru
   - DOMAIN-SUFFIX,digit77.com
   - DOMAIN-SUFFIX,minorpatch.com
