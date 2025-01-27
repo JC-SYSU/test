@@ -53,6 +53,7 @@ payload:
   - DOMAIN-SUFFIX,libnnc.org
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,bobavoice.com
+  - DOMAIN-SUFFIX,sodavoice.com
 # # App Store
 # # Store content such as apps, books, and music
 #   - DOMAIN-SUFFIX,apps.apple.com
