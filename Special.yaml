@@ -1,9 +1,11 @@
 payload:
+  # 机场
+  - DOMAIN-SUFFIX,linkless.com
+  - DOMAIN-SUFFIX,immtele.com
   # WeChatpay
   - DOMAIN-KEYWORD,wechatpay
   - DOMAIN,epay.ahrcu.com
   - DOMAIN,mixpay.wechat.com  
-  # 使用参数中的 Proxy 策略组
   - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
   - DOMAIN,btrace.qq.com
   - DOMAIN,dldir1.qq.com
@@ -17,13 +19,13 @@ payload:
   - DOMAIN-SUFFIX,map.qq.com
   - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-SUFFIX,qpic.cn
-  - DOMAIN-SUFFIX,servicewechat.com,PROXY
-  - DOMAIN-SUFFIX,tenpay.com, DIRECT
+  - DOMAIN-SUFFIX,servicewechat.com
+  - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,up-hl.3g.qq.com
   - DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
-  - DOMAIN-SUFFIX,wechat.com,PROXY
-  - DOMAIN-SUFFIX,wechatlegal.net,PROXY
-  - DOMAIN-SUFFIX,wechatos.net,PROXY
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,wechatlegal.net
+  - DOMAIN-SUFFIX,wechatos.net
   - DOMAIN-SUFFIX,weixin.com
   - DOMAIN-SUFFIX,weixin.qq.com
   - DOMAIN-SUFFIX,weixinbridge.com
@@ -42,21 +44,14 @@ payload:
   - DOMAIN,localhost.sec.qq.com
   - DOMAIN,localhost.work.weixin.qq.com
   - DOMAIN,speedtest.cros.wr.pvp.net
-  - DOMAIN,nexconvert.com
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,zerotier.com
-  # - DOMAIN-SUFFIX,peerjs.com
-  # - DOMAIN-SUFFIX,deershare.com
-  # - DOMAIN-SUFFIX,app-measurement.com
-  # - DOMAIN,cmbsubmission.com
-  # - DOMAIN-SUFFIX,cmbsubmission.com
   - DOMAIN-SUFFIX,ctcxianyu.com
   
-# DDNS 获取 IP
+  # DDNS 获取 IP
   - DOMAIN,api.ipify.org.herokudns.com
   - DOMAIN-SUFFIX,dyndns.org
   - DOMAIN-SUFFIX,dyndns.com
-  - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,ifconfig.co
   - DOMAIN-SUFFIX,api.myip.com
   - DOMAIN-SUFFIX,ip-api.com
@@ -79,47 +74,13 @@ payload:
   - DOMAIN-SUFFIX,familyds.org
   - DOMAIN-SUFFIX,i234.me
   - DOMAIN-SUFFIX,myds.com
-  - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN-SUFFIX,synodns.com
   - DOMAIN-SUFFIX,synology.cn
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,synology.me
   - DOMAIN-KEYWORD,synology
 
-# WeChat 白名单 (全直连体验更好) https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml
-  - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
-  - DOMAIN,btrace.qq.com
-  - DOMAIN,dldir1.qq.com
-  - DOMAIN,slife.xy-asia.com
-  - DOMAIN,soup.v.qq.com
-  - DOMAIN,vweixinf.tc.qq.com
-  - DOMAIN,weixin110.qq.com
-  - DOMAIN,wup.imtt.qq.com
-  - DOMAIN-SUFFIX,iot-tencent.com
-  - DOMAIN-SUFFIX,lbs.gtimg.com
-  - DOMAIN-SUFFIX,map.qq.com
-  - DOMAIN-SUFFIX,qlogo.cn
-  - DOMAIN-SUFFIX,qpic.cn
-  - DOMAIN-SUFFIX,servicewechat.com
-  - DOMAIN-SUFFIX,tenpay.com
-  - DOMAIN-SUFFIX,up-hl.3g.qq.com
-  - DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
-  - DOMAIN-SUFFIX,wechat.com
-  - DOMAIN-SUFFIX,wechatlegal.net
-  - DOMAIN-SUFFIX,wechatos.net
-  - DOMAIN-SUFFIX,wechatpay.com
-  - DOMAIN-SUFFIX,weixin.com
-  - DOMAIN-SUFFIX,weixin.qq.com
-  - DOMAIN-SUFFIX,weixinbridge.com
-  - DOMAIN-SUFFIX,weixinsxy.com
-  - DOMAIN-SUFFIX,wx.gtimg.com
-  - DOMAIN-SUFFIX,wx.qq.com
-  - DOMAIN-SUFFIX,wxapp.tc.qq.com
-  - DOMAIN-SUFFIX,wxs.qq.com
-  - DOMAIN-SUFFIX,yun-hl.3g.qq.com
-  - IP-ASN,132203
-
-# 苹果定位服务
+  # 苹果定位服务
   - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,configuration.ls.apple.com
   - DOMAIN,gspe19-ssl.ls.apple.com
@@ -133,41 +94,39 @@ payload:
   - DOMAIN,gs-loc-cn.apple.com
   - DOMAIN-SUFFIX,apple.com.cn
 
-# WG 穿透
+  # WG 穿透
   - DOMAIN,checkip.synology.com
-  - DOMAIN,ipinfo.io
   - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,inet.af
   - DOMAIN-SUFFIX,tailscale.io
 
-# 润色（IP在北京，不需要代理）
+  # 润色
   - DOMAIN-SUFFIX,enago.cn
   - DOMAIN-SUFFIX,amazonaws.com.cn
 
   # 杂项
-  # - DOMAIN,m.hotmail.com
   - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-SUFFIX,hotmail.com
   
-  # > Proxy plugin
+  # Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
 
-  # > Steam
+  # Steam
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
 
-  # > Tesla
+  # Tesla
   - DOMAIN-SUFFIX,tesla.cn
   - DOMAIN-SUFFIX,tesla-cdn.thron.cn
 
-  # > UUBooster
+  # UUBooster
   - PROCESS-NAME,UUBooster
 
-  # > Xunlei
+  # Xunlei
   - DOMAIN-SUFFIX,xunlei.com
 
-  # > Download
+  # Download
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,BitComet.exe
   - PROCESS-NAME,fdm.exe
@@ -189,7 +148,7 @@ payload:
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
 
-  # > Private Tracker
+  # Private Tracker
   - DOMAIN-SUFFIX,awesome-hd.me
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,chdbits.co
