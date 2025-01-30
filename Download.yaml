@@ -2,7 +2,16 @@ payload:
   # 机场
   - DOMAIN-SUFFIX,linkeless.com
   - DOMAIN-SUFFIX,immtele.com
-
+  - DOMAIN-SUFFIX,ctc.run
+  - DOMAIN-KEYWORD,sntp
+  - DOMAIN-SUFFIX,nexuscloud.ch
+  - DOMAIN-SUFFIX,jinglongyu.com
+  - DOMAIN-SUFFIX,recmata.net
+  - DOMAIN-SUFFIX,mesl.cloud
+  - DOMAIN-SUFFIX,flowercloud.net
+  - DOMAIN-SUFFIX,nexitally.com
+  - DOMAIN-SUFFIX,wd-gold.com
+  - DOMAIN-SUFFIX,tagss.pro
   # 其他域名
   - DOMAIN-SUFFIX,calibre-ebook.com
   - DOMAIN,challenges.cloudflare.com
