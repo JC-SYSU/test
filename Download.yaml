@@ -1,4 +1,8 @@
 payload:
+  # 机场
+  - DOMAIN-SUFFIX,linkless.com
+  - DOMAIN-SUFFIX,immtele.com
+
   - DOMAIN-SUFFIX,calibre-ebook.com
   - DOMAIN,challenges.cloudflare.com
   - DOMAIN,osx.telegram.org

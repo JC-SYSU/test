@@ -1,7 +1,4 @@
 payload:
-  # 机场
-  - DOMAIN-SUFFIX,linkless.com
-  - DOMAIN-SUFFIX,immtele.com
   # WeChatpay
   - DOMAIN-KEYWORD,wechatpay
   - DOMAIN,epay.ahrcu.com
