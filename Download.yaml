@@ -56,6 +56,12 @@ payload:
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,storage.msn.com
   - DOMAIN-SUFFIX,delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,audioz.download
+  - DOMAIN-SUFFIX,rg.to
+  - DOMAIN-SUFFIX,katfile.com
+  - DOMAIN-SUFFIX,peeplink.in
+  - DOMAIN-SUFFIX,nitroflare.com
+  - DOMAIN-SUFFIX,rapidgator.net
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
