@@ -75,7 +75,7 @@ payload:
   - DOMAIN-SUFFIX,synology.cn
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,synology.me
-  - DOMAIN-KEYWORD,synology
+  # - DOMAIN-KEYWORD,synology
 
   # 苹果定位服务
   - DOMAIN,gspe1-ssl.ls.apple.com
