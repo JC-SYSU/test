@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,drive.google.com
   - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN,global.synologydownload.com
   - PROCESS-NAME,BackupandSync
   - DOMAIN-SUFFIX,dl-faster.xyz
   - DOMAIN-SUFFIX,mega.nz
