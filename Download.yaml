@@ -73,3 +73,4 @@ payload:
   - PROCESS-NAME,OneDriveUpdater
   - DOMAIN-SUFFIX,libnnc.org
   - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,topazlabs.com
