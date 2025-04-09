@@ -777,7 +777,6 @@ payload:
   
   # DDNS 获取 IP
   - DOMAIN,api.ipify.org.herokudns.com
-  - DOMAIN-SUFFIX,dyndns.org
   - DOMAIN-SUFFIX,dyndns.com
   - DOMAIN-SUFFIX,ifconfig.co
   - DOMAIN-SUFFIX,api.myip.com
@@ -788,6 +787,14 @@ payload:
   - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN-SUFFIX,quickconnect.com
+  - DOMAIN-SUFFIX,blogdns.org
+  - DOMAIN-SUFFIX,dyn.com
+  - DOMAIN-SUFFIX,dyndns-ip.com
+  - DOMAIN-SUFFIX,dyndns-pics.com
+  - DOMAIN-SUFFIX,dyndns.org
+  - DOMAIN-SUFFIX,from-pr.com
+  - DOMAIN-SUFFIX,from-sd.com
+  - DOMAIN-SUFFIX,is-a-hunter.com
   - DOMAIN,d2f0395ykn6hxb.cloudfront.net
   - DOMAIN-SUFFIX,diskstation.me
   - DOMAIN-SUFFIX,dscloud.biz
@@ -801,6 +808,7 @@ payload:
   - DOMAIN-SUFFIX,familyds.org
   - DOMAIN-SUFFIX,i234.me
   - DOMAIN-SUFFIX,myds.com
+  - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN-SUFFIX,synodns.com
   - DOMAIN-SUFFIX,synology.cn
   - DOMAIN-SUFFIX,synology.com
