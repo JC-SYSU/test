@@ -919,6 +919,7 @@ payload:
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
+  - DOMAIN-KEYWORD,torrent
 
   # Private Tracker
   - DOMAIN-SUFFIX,awesome-hd.me
