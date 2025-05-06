@@ -1,4 +1,9 @@
 payload:
+  # transfered from config.yaml
+  - DOMAIN-KEYWORD,stun
+  - DOMAIN-KEYWORD,gov
+  - DOMAIN-SUFFIX,.gov
+
   # copy from Imm
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
