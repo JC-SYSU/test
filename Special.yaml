@@ -920,7 +920,7 @@ payload:
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
   - DOMAIN-KEYWORD,torrent
-
+  - DOMAIN,appstorrent.ru
   # Private Tracker
   - DOMAIN-SUFFIX,awesome-hd.me
   - DOMAIN-SUFFIX,broadcasthe.net
