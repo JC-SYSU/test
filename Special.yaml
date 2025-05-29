@@ -1051,8 +1051,6 @@ payload:
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,skydrive
-  - PROCESS-NAME,OneDrive
-  - PROCESS-NAME,OneDriveUpdater
   # 特别放行
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
@@ -1170,8 +1168,6 @@ payload:
   - DOMAIN-SUFFIX,hotmail.com
   
   # Proxy plugin
-  - PROCESS-NAME,v2ray
-  - PROCESS-NAME,ss-local
 
   # Steam
   - DOMAIN-SUFFIX,pinyuncloud.com
@@ -1182,32 +1178,11 @@ payload:
   - DOMAIN-SUFFIX,tesla-cdn.thron.cn
 
   # UUBooster
-  - PROCESS-NAME,UUBooster
 
   # Xunlei
   - DOMAIN-SUFFIX,xunlei.com
 
   # Download
-  - PROCESS-NAME,aria2c.exe
-  - PROCESS-NAME,BitComet.exe
-  - PROCESS-NAME,fdm.exe
-  - PROCESS-NAME,NetTransport.exe
-  - PROCESS-NAME,qbittorrent.exe
-  - PROCESS-NAME,Thunder.exe
-  - PROCESS-NAME,transmission-daemon.exe
-  - PROCESS-NAME,transmission-qt.exe
-  - PROCESS-NAME,uTorrent.exe
-  - PROCESS-NAME,WebTorrent.exe
-  - PROCESS-NAME,aria2c
-  - PROCESS-NAME,fdm
-  - PROCESS-NAME,Folx
-  - PROCESS-NAME,NetTransport
-  - PROCESS-NAME,qbittorrent
-  - PROCESS-NAME,Thunder
-  - PROCESS-NAME,Transmission
-  - PROCESS-NAME,uTorrent
-  - PROCESS-NAME,WebTorrent
-  - PROCESS-NAME,WebTorrent Helper
   - DOMAIN-KEYWORD,torrent
   - DOMAIN,appstorrent.ru
   # Private Tracker
