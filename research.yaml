@@ -56,7 +56,8 @@ payload:
   - DOMAIN-SUFFIX,biomedcentral.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,airbrake.io
-
+# BMJ
+  - DOMAIN-SUFFIX,bmj.com
 # ScholarOne
   - DOMAIN-SUFFIX,akstat.io
 # Taylor & francis
