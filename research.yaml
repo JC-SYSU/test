@@ -6,7 +6,7 @@ payload:
   - DOMAIN,pubmed.ncbi.nlm.nih.gov
   - DOMAIN-KEYWORD,nih.gov
   - DOMAIN-SUFFIX,ncbi.nlm.nih.gov
-  - IP-CIDR,34.107.134.0/24
+  - IP-CIDR,34.107.134.0/24,no-resolve
   - DOMAIN-SUFFIX,doi.org
   - DOMAIN-SUFFIX,medrxiv.org
   - DOMAIN-SUFFIX,demdex.net
@@ -115,7 +115,7 @@ payload:
   - DOMAIN,edmgr.ovid.com
   - DOMAIN-SUFFIX,ariessys.com
   - DOMAIN-SUFFIX,sciendo.com
-  - IP-CIDR,216.205.0.64/26
+  - IP-CIDR,216.205.0.64/26,no-resolve
 
 # > Medical Science Monitor
   - DOMAIN-SUFFIX,medscimonit.com
