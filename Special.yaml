@@ -1,6 +1,6 @@
 payload:
   # transfered from config.yaml
-  - DOMAIN-KEYWORD,stun
+  # - DOMAIN-KEYWORD,stun
   - DOMAIN-KEYWORD,gov
   - DOMAIN-SUFFIX,.gov
 
