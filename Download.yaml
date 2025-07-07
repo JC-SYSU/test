@@ -424,10 +424,12 @@ payload:
   - DOMAIN,stun.yollacalls.com
   - DOMAIN,stun.zadarma.com
   - DOMAIN,stun.zentauron.de
+  - DOMAIN,stun.l.google.com
   - DOMAIN,stun1.l.google.com
   - DOMAIN,stun2.l.google.com
   - DOMAIN,stun3.l.google.com
   - DOMAIN,stun4.l.google.com
+  - DST-PORT,19302
   - IP-CIDR6,2001:4060:1:1005::10:32,no-resolve
   - IP-CIDR6,2001:41d0:2:12b9::1,no-resolve
   - IP-CIDR6,2001:678:b28::118,no-resolve
