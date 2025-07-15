@@ -94,11 +94,6 @@ payload:
   - DOMAIN-SUFFIX,researchgate.net
   - DOMAIN-SUFFIX,rgstatic.net
 
-# > National Library of Medicine
-  - DOMAIN-SUFFIX,nih.gov
-  - DOMAIN,ncbi.nlm.nih.gov
-  - DOMAIN,cdn.ncbi.nlm.nih.gov
-
 # > Navisite, Inc.
   - DOMAIN-SUFFIX,editorialmanager.com
   - DOMAIN-SUFFIX,scopus.com
@@ -106,7 +101,7 @@ payload:
   - DOMAIN,edmgr.ovid.com
   - DOMAIN-SUFFIX,ariessys.com
   - DOMAIN-SUFFIX,sciendo.com
-  - IP-CIDR,216.205.0.64/26,no-resolve
+  # - IP-CIDR,216.205.0.64/26,no-resolve
 
 # > Medical Science Monitor
   - DOMAIN-SUFFIX,medscimonit.com
