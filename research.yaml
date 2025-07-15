@@ -3,25 +3,16 @@ payload:
   - DOMAIN-SUFFIX,embase.com
   - DOMAIN,acw.elsevier.com
   - DOMAIN-SUFFIX,cochranelibrary.com
-  - DOMAIN,pubmed.ncbi.nlm.nih.gov
-  - DOMAIN-KEYWORD,nih.gov
-  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov
-  - IP-CIDR,34.107.134.0/24,no-resolve
+  # - DOMAIN,pubmed.ncbi.nlm.nih.gov
+  # - DOMAIN-KEYWORD,nih.gov
+  # - DOMAIN-SUFFIX,ncbi.nlm.nih.gov
+  # - IP-CIDR,34.107.134.0/24,no-resolve
   - DOMAIN-SUFFIX,doi.org
   - DOMAIN-SUFFIX,medrxiv.org
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,.sk
-  # - DOMAIN-SUFFIX,26260.net
-  # - DOMAIN-SUFFIX,80599.net
-  - DOMAIN,cambridge.80599.net
-  - DOMAIN,oup.80599.net
-  - DOMAIN,link.springer.80599.net
-  - DOMAIN,www-sciencedirect-com.hbku.80599.net
-  - DOMAIN,www-sciencedirect-com.ehe.80599.net
   - DOMAIN-SUFFIX,biopharmadive.com
   - DOMAIN-SUFFIX,pharmatimes.com
-# appstorrent.ru
-  # - DOMAIN,appstorrent.ru
 # SCI-HUB
   - DOMAIN-KEYWORD,sci-hub
   - DOMAIN-SUFFIX,sci-hub.tw
