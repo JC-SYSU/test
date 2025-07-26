@@ -1061,7 +1061,14 @@ payload:
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,zerotier.com
   - DOMAIN-SUFFIX,ctcxianyu.com
-  
+  - DOMAIN-SUFFIX,immtele.com
+  - DOMAIN-SUFFIX,linkeless.com
+  - DOMAIN-SUFFIX,linkcube.org
+  - DOMAIN-SUFFIX,amysecure.com
+  - DOMAIN-SUFFIX,nexitally.com
+  - DOMAIN-SUFFIX,recmata.net
+  - DOMAIN-SUFFIX,kuromis.com
+  - DOMAIN-SUFFIX,mesl.cloud
   # DDNS 获取 IP
   - DOMAIN,api.ipify.org.herokudns.com
   - DOMAIN-SUFFIX,dyndns.com
