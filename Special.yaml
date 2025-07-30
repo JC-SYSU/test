@@ -1058,6 +1058,7 @@ payload:
   - DOMAIN,localhost.sec.qq.com
   - DOMAIN,localhost.work.weixin.qq.com
   - DOMAIN,speedtest.cros.wr.pvp.net
+  # 机场
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,zerotier.com
   - DOMAIN-SUFFIX,ctcxianyu.com
@@ -1069,6 +1070,13 @@ payload:
   - DOMAIN-SUFFIX,recmata.net
   - DOMAIN-SUFFIX,kuromis.com
   - DOMAIN-SUFFIX,mesl.cloud
+  - DOMAIN-SUFFIX,ctc.run
+  - DOMAIN-KEYWORD,sntp
+  - DOMAIN-SUFFIX,nexuscloud.ch
+  - DOMAIN-SUFFIX,jinglongyu.com
+  - DOMAIN-SUFFIX,flowercloud.net
+  - DOMAIN-SUFFIX,wd-gold.com
+  - DOMAIN-SUFFIX,tagss.pro
   # DDNS 获取 IP
   - DOMAIN,api.ipify.org.herokudns.com
   - DOMAIN-SUFFIX,dyndns.com
