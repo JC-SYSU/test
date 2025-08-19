@@ -28,9 +28,6 @@ payload:
   # - DOMAIN-SUFFIX,anzuinfra.com
   # - DOMAIN-SUFFIX,anzu.io
   # - DOMAIN,download-installer.cdn.mozilla.net
-# chiikawa pocket
-  - DOMAIN-SUFFIX,chiikawa-pocket.com
-  - DOMAIN-SUFFIX,us-east-1.ca.gs2io.com
 # Bing 国际版走美国线路
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,bing.com.cn
