@@ -83,17 +83,10 @@ payload:
   - DOMAIN,karger.silverchair-cdn.com
 
 # Clarivate
-  - DOMAIN-SUFFIX,vidyard.com
-#   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,clarivate.com
   - DOMAIN-SUFFIX,webofscience.com
-  - DOMAIN-SUFFIX,hotjar.com
-  - DOMAIN-SUFFIX,licdn.com
-  - DOMAIN-SUFFIX,pendo.io
-#   - DOMAIN-SUFFIX,onetrust.com
-#   - DOMAIN,geolocation.onetrust.com
-#   - DOMAIN,snowplow.apps.clarivate.com
-
+  - IP-CIDR,83.231.238.0/24,no-resolve
+  - IP-CIDR,113.29.58.0/24,no-resolve
 # ResearchGate
   - DOMAIN-SUFFIX,researchgate.net
   - DOMAIN-SUFFIX,rgstatic.net
