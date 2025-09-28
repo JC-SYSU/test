@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,.sk
   - DOMAIN-SUFFIX,biopharmadive.com
   - DOMAIN-SUFFIX,pharmatimes.com
+  - DOMAIN-SUFFIX,sagepub.com
 # SCI-HUB
   - DOMAIN-KEYWORD,sci-hub
   - DOMAIN-SUFFIX,sci-hub.tw
