@@ -1,7 +1,4 @@
 payload:
-# chiikawa pocket
-  - DOMAIN-SUFFIX,chiikawa-pocket.com
-  - DOMAIN-SUFFIX,us-east-1.ca.gs2io.com
 # 数据库
   - DOMAIN-SUFFIX,embase.com
   - DOMAIN,acw.elsevier.com
