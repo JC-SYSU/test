@@ -1,11 +1,4 @@
 payload:
-# Google play
-  - DOMAIN-KEYWORD,play.google
-  - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - DOMAIN-SUFFIX,services.googleapis.cn
-  - DOMAIN,connectivitycheck.gstatic.com
 # 数据库
   - DOMAIN-SUFFIX,embase.com
   - DOMAIN,acw.elsevier.com
