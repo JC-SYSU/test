@@ -10,7 +10,7 @@ payload:
   - DOMAIN-SUFFIX,ip-api.com
   - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,happymh.com
-  - DOMAIN-SUFFIX,adobe.com
+  - DOMAIN,ccmdls.adobe.com
   # - DOMAIN-KEYWORD,torrent
   # - DOMAIN,appstorrent.ru
   - DOMAIN-SUFFIX,digit77.com
