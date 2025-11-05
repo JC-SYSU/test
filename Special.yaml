@@ -3,7 +3,8 @@ payload:
   # - DOMAIN-KEYWORD,stun
   - DOMAIN-KEYWORD,gov
   - DOMAIN-SUFFIX,.gov
-
+  - DOMAIN-SUFFIX,capcutapi.com
+  - DOMAIN-KEYWORD,capcut
   # copy from Imm
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
