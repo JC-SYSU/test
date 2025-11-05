@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,.gov
   - DOMAIN-SUFFIX,capcutapi.com
   - DOMAIN-KEYWORD,capcut
+  - DOMAIN-SUFFIX,ibytedtos.com
   # copy from Imm
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
