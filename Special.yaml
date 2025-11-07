@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,capcutapi.com.ttdns2.com
   - DOMAIN-KEYWORD,capcut
   - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,canva.cn
   # copy from Imm
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
