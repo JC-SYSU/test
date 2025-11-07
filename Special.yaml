@@ -9,6 +9,7 @@ payload:
   - DOMAIN-KEYWORD,capcut
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,canva.cn
+  - DOMAIN-SUFFIX,cn
   # copy from Imm
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
