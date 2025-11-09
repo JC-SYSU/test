@@ -1,4 +1,11 @@
 payload:
+# --- iCloud（中国大陆托管域直连，避免走代理）---
+  - DOMAIN-SUFFIX,icloud.com.cn
+  - DOMAIN-SUFFIX,apzones.com
+# --- iCloud 私密中继（避免与代理叠加；若需换区，将下方 DIRECT 改成 PROXY）---
+  - DOMAIN,mask.icloud.com
+  - DOMAIN,mask-h2.icloud.com
+  - DOMAIN,mask-api.icloud.com
   # transfered from config.yaml
   # - DOMAIN-KEYWORD,stun
   - DOMAIN-KEYWORD,gov
