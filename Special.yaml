@@ -17,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,canva.cn
   - DOMAIN-SUFFIX,cn
+  - DOMAIN-SUFFIX,aliyuncs.com
   # copy from Imm
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
