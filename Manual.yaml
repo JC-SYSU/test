@@ -75,3 +75,7 @@ payload:
   - DOMAIN,chat.mistral.ai
   - DOMAIN,console.mistral.ai
   - DOMAIN-SUFFIX,mistral.ai
+
+  # 其他 AI
+  - DOMAIN-SUFFIX,drawthings.ai,AI
+  - DOMAIN-SUFFIX,poe.com,AI
