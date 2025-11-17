@@ -79,3 +79,8 @@ payload:
   # 其他 AI
   - DOMAIN-SUFFIX,drawthings.ai,AI
   - DOMAIN-SUFFIX,poe.com,AI
+  - DOMAIN-KEYWORD,github
+
+  # 吉伊卡哇
+  - DOMAIN-SUFFIX,chiikawa-pocket.com,PROXY
+  - DOMAIN-SUFFIX,gs2io.com

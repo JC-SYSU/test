@@ -81,6 +81,7 @@ payload:
   - DOMAIN,karger.silverchair-cdn.com
 
 # Clarivate
+  - DOMAIN-KEYWORD,clarivate
   - DOMAIN-SUFFIX,clarivate.com
   - DOMAIN-SUFFIX,webofscience.com
   - IP-CIDR,83.231.238.0/24,no-resolve
