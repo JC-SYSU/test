@@ -8,6 +8,9 @@ payload:
   - DOMAIN,ouo.io
   - DOMAIN-SUFFIX,happymh.com
   - DOMAIN,ccmdls.adobe.com
+  - DOMAIN-SUFFIX,bobavoice.com
+  - DOMAIN-SUFFIX,sodavoice.com
+  - DOMAIN-SUFFIX,dpdns.org
   # - DOMAIN-KEYWORD,torrent
   # - DOMAIN,appstorrent.ru
   - DOMAIN-SUFFIX,digit77.com
