@@ -197,7 +197,7 @@ payload:
   - DOMAIN-SUFFIX,wxapp.tc.qq.com
   - DOMAIN-SUFFIX,wxs.qq.com
   - DOMAIN-SUFFIX,yun-hl.3g.qq.com
-  - IP-ASN,132203,no-resolve
+  # - IP-ASN,132203,no-resolve
   # 邮箱
   - DOMAIN,apple.imap.mail.yahoo.com
   - DOMAIN,apple.smtp.mail.yahoo.com
