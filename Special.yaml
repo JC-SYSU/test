@@ -603,18 +603,18 @@ payload:
   - DOMAIN-SUFFIX,msdn.com
   - DOMAIN-SUFFIX,msecnd.net
   - DOMAIN-SUFFIX,msedge.net
-  - DOMAIN-SUFFIX,msft.info
-  - DOMAIN-SUFFIX,msft.net
-  - DOMAIN-SUFFIX,msftauth.cn
-  - DOMAIN-SUFFIX,msftauth.net
-  - DOMAIN-SUFFIX,msftauthimages.cn
-  - DOMAIN-SUFFIX,msftauthimages.net
-  - DOMAIN-SUFFIX,msftcenterone.cn
-  - DOMAIN-SUFFIX,msftcloudes.cn
-  - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,msfteducation.ca
-  - DOMAIN-SUFFIX,msftidentity.com
-  - DOMAIN-SUFFIX,msftnet.org
+  # - DOMAIN-SUFFIX,msft.info
+  # - DOMAIN-SUFFIX,msft.net
+  # - DOMAIN-SUFFIX,msftauth.cn
+  # - DOMAIN-SUFFIX,msftauth.net
+  # - DOMAIN-SUFFIX,msftauthimages.cn
+  # - DOMAIN-SUFFIX,msftauthimages.net
+  # - DOMAIN-SUFFIX,msftcenterone.cn
+  # - DOMAIN-SUFFIX,msftcloudes.cn
+  # - DOMAIN-SUFFIX,msftconnecttest.com
+  # - DOMAIN-SUFFIX,msfteducation.ca
+  # - DOMAIN-SUFFIX,msftidentity.com
+  # - DOMAIN-SUFFIX,msftnet.org
   - DOMAIN-SUFFIX,msgamesresearch.com
   - DOMAIN-SUFFIX,msgamestudios.com
   - DOMAIN-SUFFIX,msidentity.cn
