@@ -853,24 +853,24 @@ payload:
   - DOMAIN,localhost.work.weixin.qq.com
   - DOMAIN,speedtest.cros.wr.pvp.net
   # 机场
-  - DOMAIN-SUFFIX,nexconvert.com
-  - DOMAIN-SUFFIX,zerotier.com
-  - DOMAIN-SUFFIX,ctcxianyu.com
-  - DOMAIN-SUFFIX,immtele.com
-  - DOMAIN-SUFFIX,linkeless.com
-  - DOMAIN-SUFFIX,linkcube.org
-  - DOMAIN-SUFFIX,amysecure.com
-  - DOMAIN-SUFFIX,nexitally.com
-  - DOMAIN-SUFFIX,recmata.net
-  - DOMAIN-SUFFIX,kuromis.com
+  # - DOMAIN-SUFFIX,nexconvert.com
+  # - DOMAIN-SUFFIX,zerotier.com
+  # - DOMAIN-SUFFIX,ctcxianyu.com
+  # - DOMAIN-SUFFIX,immtele.com
+  # - DOMAIN-SUFFIX,linkeless.com
+  # - DOMAIN-SUFFIX,linkcube.org
+  # - DOMAIN-SUFFIX,amysecure.com
+  # - DOMAIN-SUFFIX,nexitally.com
+  # - DOMAIN-SUFFIX,recmata.net
+  # - DOMAIN-SUFFIX,kuromis.com
   # - DOMAIN-SUFFIX,mesl.cloud
-  - DOMAIN-SUFFIX,ctc.run
-  - DOMAIN-KEYWORD,sntp
-  - DOMAIN-SUFFIX,nexuscloud.ch
-  - DOMAIN-SUFFIX,jinglongyu.com
-  - DOMAIN-SUFFIX,flowercloud.net
-  - DOMAIN-SUFFIX,wd-gold.com
-  - DOMAIN-SUFFIX,tagss.pro
+  # - DOMAIN-SUFFIX,ctc.run
+  # - DOMAIN-KEYWORD,sntp
+  # - DOMAIN-SUFFIX,nexuscloud.ch
+  # - DOMAIN-SUFFIX,jinglongyu.com
+  # - DOMAIN-SUFFIX,flowercloud.net
+  # - DOMAIN-SUFFIX,wd-gold.com
+  # - DOMAIN-SUFFIX,tagss.pro
   # DDNS 获取 IP
   - DOMAIN,api.ipify.org.herokudns.com
   - DOMAIN-SUFFIX,dyndns.com
@@ -904,7 +904,6 @@ payload:
   - DOMAIN-SUFFIX,familyds.org
   - DOMAIN-SUFFIX,i234.me
   - DOMAIN-SUFFIX,myds.com
-  - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN-SUFFIX,synodns.com
   - DOMAIN-SUFFIX,synology.cn
   - DOMAIN-SUFFIX,synology.com
@@ -973,14 +972,14 @@ payload:
   - DOMAIN-SUFFIX,amazonaws.com.cn
 
   # 杂项
-  - DOMAIN-SUFFIX,outlook.com
-  - DOMAIN-SUFFIX,hotmail.com
+  # - DOMAIN-SUFFIX,outlook.com # 重复项已移除
+  # - DOMAIN-SUFFIX,hotmail.com # 重复项已移除
   
   # Proxy plugin
 
   # Steam
   - DOMAIN-SUFFIX,pinyuncloud.com
-  - DOMAIN-SUFFIX,steamcontent.com
+  # - DOMAIN-SUFFIX,steamcontent.com # 重复项已移除
 
   # Tesla
   - DOMAIN-SUFFIX,tesla.cn
