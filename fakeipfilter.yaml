@@ -111,6 +111,7 @@ payload:
   - DOMAIN-SUFFIX,n0808.com
   - DOMAIN-SUFFIX,uu.163.com
   - DOMAIN-SUFFIX,pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-KEYWORD,stun
   - DOMAIN-KEYWORD,ntp
   - DOMAIN-KEYWORD,msDCS
