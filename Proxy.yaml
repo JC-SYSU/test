@@ -1,5 +1,5 @@
 payload:
-# Azure 日本（用于语音项目的访问）
+  # Azure 日本（用于语音项目的访问）
   - DOMAIN,japaneast.api.speech.microsoft.com
   - DOMAIN,japaneast.api.cognitive.microsoft.com
   - DOMAIN,api.speech.microsoft.com
@@ -9,7 +9,7 @@ payload:
   - DOMAIN,cvoiceprodjpe.blob.core.windows.net
   - DOMAIN,japaneast.customvoice.api.speech.microsoft.com
 
-# Office 下载
+  # Office 下载
   - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,officecdnmac.microsoft.com
   - DOMAIN,msedge.api.cdp.microsoft.com
@@ -17,7 +17,7 @@ payload:
   - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,events.data.microsoft.com
 
-# 领英国际版
+  # 领英国际版
   - DOMAIN,e122475.dscg.akamaiedge.net
   - DOMAIN,licdn.cn.cdn20.com
   - DOMAIN,linkedin.sc.omtrdc.net
@@ -31,10 +31,10 @@ payload:
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,lnkd.in
 
-# 更多自定义
+  # 更多自定义
   - DOMAIN,clash.razord.top
   - DOMAIN,yacd.haishan.me
-  - DOMAIN,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,jinglongyu.com
   - DOMAIN-SUFFIX,ctc.run
   - DOMAIN-SUFFIX,wgetcloud.ltd
