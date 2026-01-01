@@ -1,5 +1,5 @@
 payload:
-  # 境外汇款
+  # 境外汇款-test
   - DOMAIN-SUFFIX,systempay.fr
   - DOMAIN-SUFFIX,visa.be
   - DOMAIN-SUFFIX,visa.ca
