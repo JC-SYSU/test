@@ -899,6 +899,7 @@ payload:
   - DOMAIN-SUFFIX,kuromis.com
   - DOMAIN-SUFFIX,esnc.link
   - DOMAIN-SUFFIX,newyun.top
+  - DOMAIN-SUFFIX,prodigal4936.com
   # DDNS 获取 IP
   - DOMAIN,api.ipify.org.herokudns.com
   - DOMAIN-SUFFIX,dyndns.com
