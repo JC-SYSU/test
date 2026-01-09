@@ -24,9 +24,9 @@ payload:
   - DOMAIN-SUFFIX,ezoic.net
   - DOMAIN-SUFFIX,ezodn.com
   - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,dl.google.com
-  - DOMAIN-SUFFIX,drive.google.com
-  - DOMAIN-SUFFIX,googledrive.com
+  # - DOMAIN-SUFFIX,dl.google.com
+  # - DOMAIN-SUFFIX,drive.google.com
+  # - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,dl-faster.xyz
   - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,massgrave.dev
