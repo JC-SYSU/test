@@ -466,10 +466,6 @@ payload:
   - IP-CIDR,64.23.132.171/32,no-resolve
   - IP-ASN,20473,no-resolve
 
-  # 吉伊卡哇
-  - DOMAIN-SUFFIX,chiikawa-pocket.com
-  - DOMAIN-SUFFIX,gs2io.com
-
   # # Windows 网络检测
   # - DOMAIN-SUFFIX,msft.info
   # - DOMAIN-SUFFIX,msft.net
