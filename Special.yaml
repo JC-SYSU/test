@@ -1008,7 +1008,8 @@ payload:
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
 
-  - DOMAIN-SUFFIX,smtp
+  - DOMAIN-KEYWORD,smtp.
+  - DOMAIN-KEYWORD,imap.
 
 # Auto Number Verification
 # https://github.com/privacy-protection-tools/anti-AD/issues/547
