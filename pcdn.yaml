@@ -1,0 +1,61 @@
+# 规则名称：PCDN_Merged_Full
+# 整合来源：
+# 1. https://github.com/uselibrary/PCDN (主攻国内 PCDN 厂商)
+# 2. https://github.com/DDCHlsq/sing-ruleset (主攻视频平台与通用 P2P)
+# 格式：Mihomo Classical Payload
+
+payload:
+  # === 1. 正则匹配模式 (DOMAIN-REGEX) ===
+  # 匹配所有包含 pcdn/mcdn/szbdydns 且带动态前缀/后缀的域名
+  - DOMAIN-REGEX,^.*(pcdn|mcdn|szbdydns|peertopeer|p2pupdate).*$
+  - DOMAIN-REGEX,^.*(v-p2p|v-pcdn|v-mcdn).*$
+  - DOMAIN-REGEX,^.*(douyin|bytedance).*pcdn.*$
+  - DOMAIN-REGEX,^.*(qpic|qlogo|gtimg).*p2p.*$
+
+  # === 2. 通用后缀匹配 (DOMAIN-SUFFIX) ===
+  # 整合自 uselibrary ||example.com^ 格式
+  - DOMAIN-SUFFIX,bsccdn.net
+  - DOMAIN-SUFFIX,gjfzpt.cn
+  - DOMAIN-SUFFIX,jomodns.cn
+  - DOMAIN-SUFFIX,kuiniuca.com
+  - DOMAIN-SUFFIX,pkoplink.com
+  - DOMAIN-SUFFIX,saxysec.com
+  - DOMAIN-SUFFIX,szbdyd.com
+  - DOMAIN-SUFFIX,uhabo.com
+  - DOMAIN-SUFFIX,xycdn.com
+  - DOMAIN-SUFFIX,onethingpcs.com
+  - DOMAIN-SUFFIX,pcdn.zbox.org.cn
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  - DOMAIN-SUFFIX,szbdydns.com
+  - DOMAIN-SUFFIX,p2p.qq.com
+  - DOMAIN-SUFFIX,p2ptun.qq.com
+  - DOMAIN-SUFFIX,p2p.huya.com
+  - DOMAIN-SUFFIX,p2p.douyucdn.cn
+
+  # === 3. 精确域名匹配 (DOMAIN) ===
+  # 整合自 DDCHlsq JSON 及其它固定节点
+  - DOMAIN,p.tencentmusic.com
+  - DOMAIN,musicps.p2p.qq.com
+  - DOMAIN,stun.qqlive.qq.com
+  - DOMAIN,musicstun.p2p.qq.com
+  - DOMAIN,p2pupgrade.gamedl.qq.com
+  - DOMAIN,stun-a1.qq.com
+  - DOMAIN,signal.qvb.qcloud.com
+  - DOMAIN,slb-p2p.vcloud.ks-live.com
+  - DOMAIN,p2p.download.battlenet.com.cn
+
+  # === 4. 关键字匹配 (DOMAIN-KEYWORD) ===
+  - DOMAIN-KEYWORD,pcdn
+  - DOMAIN-KEYWORD,mcdn
+  - DOMAIN-KEYWORD,p2pupdate
+  - DOMAIN-KEYWORD,peertopeer
+  - DOMAIN-KEYWORD,beidou
+
+  # === 5. IP段匹配 (IP-CIDR) ===
+  # 整合自 uselibrary 的 IP 拦截列表，配合 no-resolve 提升性能
+  - IP-CIDR,101.71.154.241/32,no-resolve
+  - IP-CIDR,121.56.81.0/24,no-resolve
+  - IP-CIDR,117.188.0.0/16,no-resolve
+  - IP-CIDR,111.175.220.160/28,no-resolve
+  - IP-CIDR,223.111.0.0/16,no-resolve
+  - IP-CIDR,58.218.213.0/24,no-resolve
