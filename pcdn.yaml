@@ -50,6 +50,7 @@ payload:
   - DOMAIN-KEYWORD,p2pupdate
   - DOMAIN-KEYWORD,peertopeer
   - DOMAIN-KEYWORD,beidou
+  - DOMAIN-KEYWORD,stun
 
   # === 5. IP段匹配 (IP-CIDR) ===
   # 整合自 uselibrary 的 IP 拦截列表，配合 no-resolve 提升性能
