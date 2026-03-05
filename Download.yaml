@@ -12,7 +12,7 @@ payload:
   - DOMAIN-SUFFIX,sodavoice.com
   - DOMAIN-SUFFIX,dpdns.org
   # - DOMAIN-KEYWORD,torrent
-  # - DOMAIN,appstorrent.ru
+  - DOMAIN,appstorrent.ru
   - DOMAIN-SUFFIX,digit77.com
   - DOMAIN-SUFFIX,minorpatch.com
   - DOMAIN-SUFFIX,nmac.to
