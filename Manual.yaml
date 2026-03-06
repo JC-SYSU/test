@@ -1,4 +1,7 @@
 payload:
+  # 自定义
+  - DOMAIN,ipdata.co
+  - DOMAIN,ping0.cc
   # 境外汇款-test
   - DOMAIN-SUFFIX,systempay.fr
   - DOMAIN-SUFFIX,visa.be
