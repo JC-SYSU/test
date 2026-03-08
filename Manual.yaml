@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,cohere.so
   - DOMAIN-SUFFIX,cohere.io
   - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,iill.top
   # 境外汇款-test
   - DOMAIN-SUFFIX,systempay.fr
   - DOMAIN-SUFFIX,visa.be
