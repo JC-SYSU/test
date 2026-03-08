@@ -3,6 +3,9 @@ payload:
   - DOMAIN-SUFFIX,ipdata.co
   - DOMAIN-SUFFIX,ping0.cc
   - DOMAIN-SUFFIX,formula1.com
+  - DOMAIN-SUFFIX,cohere.so
+  - DOMAIN-SUFFIX,cohere.io
+  - DOMAIN-SUFFIX,cohere.com
   # 境外汇款-test
   - DOMAIN-SUFFIX,systempay.fr
   - DOMAIN-SUFFIX,visa.be
