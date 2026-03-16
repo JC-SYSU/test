@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,embase.com
   - DOMAIN,acw.elsevier.com
   - DOMAIN-SUFFIX,cochranelibrary.com
+  - DOMAIN-SUFFIX,ikmdoab.cn
   # - DOMAIN,pubmed.ncbi.nlm.nih.gov
   # - DOMAIN-KEYWORD,nih.gov
   # - DOMAIN-SUFFIX,ncbi.nlm.nih.gov
