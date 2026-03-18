@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,calibre-ebook.com
+  - DOMAIN-SUFFIX,archive.org
   # - DOMAIN,challenges.cloudflare.com
   - DOMAIN,osx.telegram.org
   - DOMAIN,ouo.io
