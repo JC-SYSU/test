@@ -4,6 +4,15 @@ payload:
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,calibre-ebook.com
   - DOMAIN-SUFFIX,archive.org
+  - DOMAIN-SUFFIX,hcaptcha.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-KEYWORD,tt-v-cloudflare
+  - DOMAIN,dash.cloudflare.com
+  - DOMAIN,api.cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare.net
+  - DOMAIN-SUFFIX,cloudflare-gateway.com
+  - DOMAIN-SUFFIX,cloudflareclient.com
   # - DOMAIN,challenges.cloudflare.com
   - DOMAIN,osx.telegram.org
   - DOMAIN,ouo.io
