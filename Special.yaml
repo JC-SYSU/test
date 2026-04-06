@@ -187,7 +187,7 @@ payload:
   - DOMAIN-SUFFIX,recmata.net
   - DOMAIN-SUFFIX,kuromis.com
   - DOMAIN-SUFFIX,mesl.cloud
-  - DOMAIN-SUFFIX,ctc.run
+  # - DOMAIN-SUFFIX,ctc.run
   - DOMAIN-KEYWORD,sntp
   - DOMAIN-SUFFIX,nexuscloud.ch
   - DOMAIN-SUFFIX,jinglongyu.com
@@ -195,7 +195,6 @@ payload:
   - DOMAIN-SUFFIX,wd-gold.com
   - DOMAIN-SUFFIX,tagss.pro
   - DOMAIN-SUFFIX,jinglongyu.com
-  - DOMAIN-SUFFIX,ctc.run
   - DOMAIN-SUFFIX,wgetcloud.ltd
   - DOMAIN-SUFFIX,recmata.net
   - DOMAIN-SUFFIX,facmata.net
