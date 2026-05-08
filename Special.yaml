@@ -1,7 +1,6 @@
 payload:
 	# 常见推送子域名
   - DOMAIN-SUFFIX,push.apple.com
-  - DOMAIN,courier.push.apple.com
 # --- iCloud（中国大陆托管域直连，避免走代理）---
   - DOMAIN-SUFFIX,icloud.com.cn
   - DOMAIN-SUFFIX,apzones.com
@@ -10,7 +9,6 @@ payload:
   - DOMAIN,mask-h2.icloud.com
   - DOMAIN,mask-api.icloud.com
   # transfered from config.yaml
-  # - DOMAIN-KEYWORD,stun
   - DOMAIN-KEYWORD,gov
   - DOMAIN-SUFFIX,gov
   - DOMAIN-SUFFIX,capcutapi.com
@@ -93,27 +91,14 @@ payload:
   - DOMAIN-SUFFIX,jp.ntp.org.cn
   - DOMAIN-SUFFIX,kr.ntp.org.cn
   - DOMAIN-SUFFIX,ntp.aliyun.com
-  - DOMAIN-SUFFIX,ntp.cloud.aliyuncs.com
   - DOMAIN-SUFFIX,ntp.sjtu.edu.cn
   - DOMAIN-SUFFIX,ntp1.aliyun.com
-  - DOMAIN-SUFFIX,ntp1.cloud.aliyuncs.com
-  - DOMAIN-SUFFIX,ntp10.cloud.aliyuncs.com
-  - DOMAIN-SUFFIX,ntp11.cloud.aliyuncs.com
-  - DOMAIN-SUFFIX,ntp12.cloud.aliyuncs.com
   - DOMAIN-SUFFIX,ntp2.aliyun.com
-  - DOMAIN-SUFFIX,ntp2.cloud.aliyuncs.com
   - DOMAIN-SUFFIX,ntp3.aliyun.com
-  - DOMAIN-SUFFIX,ntp3.cloud.aliyuncs.com
   - DOMAIN-SUFFIX,ntp4.aliyun.com
-  - DOMAIN-SUFFIX,ntp4.cloud.aliyuncs.com
   - DOMAIN-SUFFIX,ntp5.aliyun.com
-  - DOMAIN-SUFFIX,ntp5.cloud.aliyuncs.com
   - DOMAIN-SUFFIX,ntp6.aliyun.com
-  - DOMAIN-SUFFIX,ntp6.cloud.aliyuncs.com
   - DOMAIN-SUFFIX,ntp7.aliyun.com
-  - DOMAIN-SUFFIX,ntp7.cloud.aliyuncs.com
-  - DOMAIN-SUFFIX,ntp8.cloud.aliyuncs.com
-  - DOMAIN-SUFFIX,ntp9.cloud.aliyuncs.com
   - DOMAIN-SUFFIX,pool.ntp.org
   - DOMAIN-SUFFIX,s1a.time.edu.cn
   - DOMAIN-SUFFIX,s1b.time.edu.cn
@@ -133,7 +118,6 @@ payload:
   - DOMAIN-SUFFIX,sgp.ntp.org.cn
   - DOMAIN-SUFFIX,time.apple.com
   - DOMAIN-SUFFIX,time.asia.apple.com
-  - DOMAIN-SUFFIX,time.nist.gov
   - DOMAIN-SUFFIX,time.pool.aliyun.com
   - DOMAIN-SUFFIX,time.windows.com
   - DOMAIN-SUFFIX,time1.aliyun.com
@@ -167,7 +151,6 @@ payload:
   - DOMAIN-SUFFIX,tw.ntp.org.cn
   - DOMAIN-SUFFIX,us.ntp.org.cn
 
-  # - IP-ASN,132203,no-resolve
   # 特别放行
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
@@ -187,21 +170,17 @@ payload:
   - DOMAIN-SUFFIX,recmata.net
   - DOMAIN-SUFFIX,kuromis.com
   - DOMAIN-SUFFIX,mesl.cloud
-  # - DOMAIN-SUFFIX,ctc.run
   - DOMAIN-KEYWORD,sntp
   - DOMAIN-SUFFIX,nexuscloud.ch
-  - DOMAIN-SUFFIX,jinglongyu.com
   - DOMAIN-SUFFIX,flowercloud.net
   - DOMAIN-SUFFIX,wd-gold.com
   - DOMAIN-SUFFIX,tagss.pro
   - DOMAIN-SUFFIX,jinglongyu.com
   - DOMAIN-SUFFIX,wgetcloud.ltd
-  - DOMAIN-SUFFIX,recmata.net
   - DOMAIN-SUFFIX,facmata.net
   - DOMAIN-SUFFIX,facal.one
   - DOMAIN-SUFFIX,synn.cc
   - DOMAIN-SUFFIX,eggtartcloud.shop
-  - DOMAIN-SUFFIX,kuromis.com
   - DOMAIN-SUFFIX,esnc.link
   - DOMAIN-SUFFIX,newyun.top
   - DOMAIN-SUFFIX,prodigal4936.com
@@ -242,7 +221,6 @@ payload:
   - DOMAIN-SUFFIX,synology.cn
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,synology.me
-  # - DOMAIN-KEYWORD,synology
 
   # 苹果定位服务
   - DOMAIN,gspe1-ssl.ls.apple.com
@@ -271,7 +249,6 @@ payload:
   - DOMAIN,mtalk.google.com
 
   # WG 穿透
-  - DOMAIN,checkip.synology.com
   - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,inet.af
   - DOMAIN-SUFFIX,tailscale.io
@@ -289,7 +266,6 @@ payload:
 
   # Download
   - DOMAIN-KEYWORD,torrent
-  # - DOMAIN,appstorrent.ru
   # Private Tracker
   - DOMAIN-SUFFIX,awesome-hd.me
   - DOMAIN-SUFFIX,broadcasthe.net
@@ -355,10 +331,8 @@ payload:
   - DOMAIN,doh.ptqy.gitv.tv
   - DOMAIN,dotserver.douyucdn.cn
   - DOMAIN,hdns.ksyun.com
-  - DOMAIN,httpdns-api.aliyuncs.com
   - DOMAIN,httpdns-browser.platform.dbankcloud.cn
   - DOMAIN,httpdns-platform-dbankcloud-com-drcn.wec.dbankedge.cn
-  - DOMAIN,httpdns-sc.aliyuncs.com
   - DOMAIN,httpdns-sdk.n.netease.com
   - DOMAIN,httpdns.alicdn.com
   - DOMAIN,httpdns.baidu.com
@@ -773,8 +747,6 @@ payload:
   - DOMAIN-SUFFIX,toutiao.com
 
   # 测速
-  # - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,ooklaserver.net
-  # - DOMAIN-SUFFIX,speed.cloudflare.com
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-SUFFIX,kcdnvip.com

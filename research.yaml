@@ -1,13 +1,8 @@
 payload:
 # 数据库
   - DOMAIN-SUFFIX,embase.com
-  - DOMAIN,acw.elsevier.com
   - DOMAIN-SUFFIX,cochranelibrary.com
   - DOMAIN-SUFFIX,ikmdoab.cn
-  # - DOMAIN,pubmed.ncbi.nlm.nih.gov
-  # - DOMAIN-KEYWORD,nih.gov
-  # - DOMAIN-SUFFIX,ncbi.nlm.nih.gov
-  # - IP-CIDR,34.107.134.0/24,no-resolve
   - DOMAIN-SUFFIX,doi.org
   - DOMAIN-SUFFIX,medrxiv.org
   - DOMAIN-SUFFIX,demdex.net
@@ -36,14 +31,8 @@ payload:
   - DOMAIN-SUFFIX,nr-data.net
   - DOMAIN,cdn.cookielaw.org
   - DOMAIN,cdn.smassets.net
-  - DOMAIN,idp.nature.com
-  - DOMAIN,idp.springernature.com
-  - DOMAIN,js-agent.newrelic.com
-  - DOMAIN,notifier-configs.airbrake.io
   - DOMAIN,prod.smassets.net
-  - DOMAIN,researcher.nature.com
   - DOMAIN,secure.surveymonkey.com
-  - DOMAIN,verify.nature.com
   - DOMAIN,www.surveymonkey.co.uk
 # BMC
   - DOMAIN-SUFFIX,biomedcentral.com
@@ -67,7 +56,6 @@ payload:
 # Hindawi
   - DOMAIN,review.hindawi.com
   - DOMAIN,sso.hindawi.com
-  - DOMAIN,app.getsitecontrol.com
   - DOMAIN,review-gateway.hindawi.com
   - DOMAIN-SUFFIX,hotjar.com
   - DOMAIN,s.yimg.com
@@ -93,7 +81,6 @@ payload:
   - DOMAIN,edmgr.ovid.com
   - DOMAIN-SUFFIX,ariessys.com
   - DOMAIN-SUFFIX,sciendo.com
-  # - IP-CIDR,216.205.0.64/26,no-resolve
 
 # > Medical Science Monitor
   - DOMAIN-SUFFIX,medscimonit.com
@@ -102,7 +89,6 @@ payload:
 
 # > Frontiersin
   - DOMAIN-SUFFIX,frontiersin.org
-  - DOMAIN-SUFFIX,core.windows.net
   - DOMAIN-SUFFIX,rackcdn.com
   - DOMAIN-SUFFIX,igodigital.com
   - DOMAIN-SUFFIX,newrelic.com
@@ -115,8 +101,6 @@ payload:
   - DOMAIN,api.segment.io
   - DOMAIN,cdn.segment.com
   - DOMAIN,cdn.polyfill.io
-  - DOMAIN,siteintercept.qualtrics.com
-  - DOMAIN-SUFFIX,siteintercept.qualtrics.com
   - DOMAIN,snap.licdn.com
 
 # > Institute for Research in Fundamental Sciences
@@ -135,13 +119,8 @@ payload:
   - DOMAIN,validate.onecount.net
   - DOMAIN,wileypublishing.sc.omtrdc.net
   - DOMAIN,wiley.grapeshot.co.uk
-  - DOMAIN,cmp.osano.com
-  - DOMAIN,external-sso.wiley.com
-  - DOMAIN,js-cdn.dynatrace.com
   - DOMAIN-SUFFIX,112.2o7.net
   - DOMAIN-SUFFIX,unpkg.com
-  - DOMAIN-SUFFIX,onlinelibrary.wiley.com
-  - DOMAIN,onlinelibrary.wiley.com
   - DOMAIN-SUFFIX,osano.com
   - DOMAIN-SUFFIX,pingdom.net
   - DOMAIN-SUFFIX,riskified.com
@@ -174,8 +153,6 @@ payload:
   - DOMAIN-SUFFIX,thelancet.com
   
 # WROCLAW
-  - DOMAIN-SUFFIX,edu.pl
-  - DOMAIN-SUFFIX,wroc.pl
   - DOMAIN-SUFFIX,.pl
   
 # NEJM
@@ -192,5 +169,4 @@ payload:
   - DOMAIN-SUFFIX,ac.ir
   - DOMAIN-SUFFIX,eymj.org
   - DOMAIN-SUFFIX,medicaljournalssweden.se
-  - DOMAIN-SUFFIX,usercentrics.eu
   - DOMAIN,orcid.org

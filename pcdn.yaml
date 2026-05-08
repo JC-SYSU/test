@@ -35,9 +35,7 @@ payload:
   # === 3. 精确域名匹配 (DOMAIN) ===
   # 整合自 DDCHlsq JSON 及其它固定节点
   - DOMAIN,p.tencentmusic.com
-  - DOMAIN,musicps.p2p.qq.com
   - DOMAIN,stun.qqlive.qq.com
-  - DOMAIN,musicstun.p2p.qq.com
   - DOMAIN,p2pupgrade.gamedl.qq.com
   - DOMAIN,stun-a1.qq.com
   - DOMAIN,signal.qvb.qcloud.com
