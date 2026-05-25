@@ -31,6 +31,9 @@ payload:
   - DOMAIN-SUFFIX,software.download.prss.microsoft.com
   - DOMAIN-SUFFIX,openwrt.org
   - DOMAIN-SUFFIX,proxmox.com
+  - DOMAIN-SUFFIX,unity3d.com
+  - DOMAIN-SUFFIX,unity.com
+  - DOMAIN-SUFFIX,unpkg.com
   - DOMAIN-SUFFIX,ezgif.com
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,livefilestore.com

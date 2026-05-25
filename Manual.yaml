@@ -10,9 +10,56 @@ payload:
   - DOMAIN-SUFFIX,ctc.run
   - DOMAIN-SUFFIX,sqplay.st
   - DOMAIN-SUFFIX,photoengine.io
-  - DOMAIN-SUFFIX,unity3d.com
-  - DOMAIN-SUFFIX,unity.com
   - DOMAIN-SUFFIX,googleadserving.cn
+
+  # 从 research 迁移的非学术通用条目
+  - DOMAIN-SUFFIX,demdex.net
+  - DOMAIN-SUFFIX,.sk
+  - DOMAIN-SUFFIX,nr-data.net
+  - DOMAIN,secure.surveymonkey.com
+  - DOMAIN,www.surveymonkey.co.uk
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,airbrake.io
+  - DOMAIN-SUFFIX,akstat.io
+  - DOMAIN,certify-js.alexametrics.com
+  - DOMAIN,certify.alexametrics.com
+  - DOMAIN,secure.late6year.com
+  - DOMAIN,static.cloudflareinsights.com
+  - DOMAIN,t.contentsquare.net
+  - DOMAIN,pi.pardot.com
+  - DOMAIN-SUFFIX,hotjar.com
+  - DOMAIN,s.yimg.com
+  - DOMAIN,sp.analytics.yahoo.com
+  - DOMAIN-SUFFIX,getsitecontrol.com
+  - DOMAIN-SUFFIX,rackcdn.com
+  - DOMAIN-SUFFIX,igodigital.com
+  - DOMAIN-SUFFIX,newrelic.com
+  - DOMAIN-SUFFIX,addthis.com
+  - DOMAIN-SUFFIX,visitors.live
+  - DOMAIN-SUFFIX,salesforceliveagent.com
+  - DOMAIN-SUFFIX,qualtrics.com
+  - DOMAIN,api.segment.io
+  - DOMAIN,cdn.segment.com
+  - DOMAIN,cdn.polyfill.io
+  - DOMAIN,snap.licdn.com
+  - DOMAIN,validate.onecount.net
+  - DOMAIN,wileypublishing.sc.omtrdc.net
+  - DOMAIN,wiley.grapeshot.co.uk
+  - DOMAIN-SUFFIX,112.2o7.net
+  - DOMAIN-SUFFIX,osano.com
+  - DOMAIN-SUFFIX,pingdom.net
+  - DOMAIN-SUFFIX,riskified.com
+  - DOMAIN-SUFFIX,krxd.net
+  - DOMAIN-SUFFIX,3gl.net
+  - DOMAIN-SUFFIX,alexametrics.co
+  - DOMAIN-SUFFIX,dynatrace.com
+  - DOMAIN-SUFFIX,crazyegg.com
+  - DOMAIN-SUFFIX,.eu
+  - DOMAIN-SUFFIX,.pl
+  - DOMAIN-SUFFIX,pendo.io
+  - DOMAIN-SUFFIX,.edu
+  - DOMAIN-SUFFIX,windows.net
+
   # 境外汇款-test
   - DOMAIN-SUFFIX,systempay.fr
   - DOMAIN-SUFFIX,visa.be
@@ -363,8 +410,6 @@ payload:
 # # Bing 国际版走美国线路
 
   # Gemini
-  - DOMAIN,alkalimakersuite-pa.clients6.google.com
-  - DOMAIN,makersuite.google.com
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-KEYWORD,colab
   - DOMAIN-KEYWORD,developerprofiles
@@ -389,9 +434,6 @@ payload:
 
 	# OpenAI
   - DOMAIN,browser-intake-datadoghq.com
-  - DOMAIN,openai-api.arkoselabs.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,auth0.com
@@ -406,8 +448,6 @@ payload:
   - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,observeit.net
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,openaicom.imgix.net
   - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
