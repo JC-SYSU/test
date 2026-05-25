@@ -2,24 +2,157 @@ payload:
 	# 常见推送子域名
   - DOMAIN-SUFFIX,push.apple.com
 # --- iCloud（中国大陆托管域直连，避免走代理）---
+  - DOMAIN-SUFFIX,icloud.com.cn
+  - DOMAIN-SUFFIX,apzones.com
 # --- iCloud 私密中继（避免与代理叠加；若需换区，将下方 DIRECT 改成 PROXY）---
+  - DOMAIN,mask.icloud.com
+  - DOMAIN,mask-h2.icloud.com
+  - DOMAIN,mask-api.icloud.com
   # transfered from config.yaml
   - DOMAIN-KEYWORD,gov
   - DOMAIN-SUFFIX,gov
   - DOMAIN-SUFFIX,capcutapi.com
+  - DOMAIN-SUFFIX,capcut.com
   - DOMAIN-SUFFIX,capcutapi.com.ttdns2.com
   - DOMAIN-KEYWORD,capcut
+  - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,canva.cn
+  - DOMAIN-SUFFIX,aliyuncs.com
   # copy from Imm
+  - DOMAIN,assets1.xboxlive.com
+  - DOMAIN,assets2.xboxlive.com
+  - DOMAIN,blizzard.gcdn.cloudn.co.kr
+  - DOMAIN,blzddist1-a.akamaihd.net
+  - DOMAIN,blzddistkr1-a.akamaihd.net
+  - DOMAIN,client.hikarifield.co.jp
+  - DOMAIN,content.cdp.bethesda.net
+  - DOMAIN,download.cdp.bethesda.net
+  - DOMAIN,download.dm.origin.com
+  - DOMAIN,download.epicgames.com
+  - DOMAIN,download.hikarifield.co.jp
+  - DOMAIN,download2.epicgames.com
+  - DOMAIN,download3.epicgames.com
+  - DOMAIN,download4.epicgames.com
+  - DOMAIN,edge.steam-dns.top.comcast.net
+  - DOMAIN,epicgames-download1.akamaized.net
+  - DOMAIN,eu.cdn.blizzard.com
+  - DOMAIN,fastly-download.epicgames.com
+  - DOMAIN,gamedownloads-rockstargames-com.akamaized.net
+  - DOMAIN,gog-cdn-lumen.secure2.footprint.net
+  - DOMAIN,kr.cdn.blizzard.com
+  - DOMAIN,level3.blizzard.com
+  - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN,packagespc.xboxlive.com
+  - DOMAIN,ssl-lvlt.cdn.ea.com
+  - DOMAIN,steam.eca.qtlglb.com
+  - DOMAIN,steam.naeu.qtlglb.com
+  - DOMAIN,steam.ru.qtlglb.com
+  - DOMAIN,steampipe-kr.akamaized.net
+  - DOMAIN,steampipe-partner.akamaized.net
+  - DOMAIN,steampipe.akamaized.net
+  - DOMAIN,steamusercontent-a.akamaihd.net
+  - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
+  - DOMAIN,us.cdn.blizzard.com
+  - DOMAIN,xvcf1.xboxlive.com
+  - DOMAIN,xvcf2.xboxlive.com
+  - DOMAIN-SUFFIX,cdn.ubi.com
+  - DOMAIN-SUFFIX,dyn.riotcdn.net
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,ip6-localhost
   - DOMAIN-SUFFIX,ip6-loopback
   - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,local
   - DOMAIN-SUFFIX,localhost
+  - DOMAIN,instant.arubanetworks.com
+  - DOMAIN,setmeup.arubanetworks.com
+  - DOMAIN,router.asus.com
+  - DOMAIN,www.asusrouter.com
+  - DOMAIN-SUFFIX,hiwifi.com
+  - DOMAIN-SUFFIX,leike.cc
+  - DOMAIN-SUFFIX,miwifi.com
+  - DOMAIN-SUFFIX,my.router
+  - DOMAIN-SUFFIX,p.to
+  - DOMAIN-SUFFIX,peiluyou.com
+  - DOMAIN-SUFFIX,phicomm.me
+  - DOMAIN-SUFFIX,router.ctc
+  - DOMAIN-SUFFIX,routerlogin.com
+  - DOMAIN-SUFFIX,tendawifi.com
+  - DOMAIN-SUFFIX,zte.home
+  - DOMAIN-SUFFIX,tplogin.cn
+  - DOMAIN-SUFFIX,wifi.cmcc
 
   # NTP 服务
+  - DOMAIN-SUFFIX,cn.ntp.org.cn
+  - DOMAIN-SUFFIX,de.ntp.org.cn
+  - DOMAIN-SUFFIX,edu.ntp.org.cn
+  - DOMAIN-SUFFIX,hk.ntp.org.cn
+  - DOMAIN-SUFFIX,ina.ntp.org.cn
+  - DOMAIN-SUFFIX,jp.ntp.org.cn
+  - DOMAIN-SUFFIX,kr.ntp.org.cn
+  - DOMAIN-SUFFIX,ntp.aliyun.com
+  - DOMAIN-SUFFIX,ntp.sjtu.edu.cn
+  - DOMAIN-SUFFIX,ntp1.aliyun.com
+  - DOMAIN-SUFFIX,ntp2.aliyun.com
+  - DOMAIN-SUFFIX,ntp3.aliyun.com
+  - DOMAIN-SUFFIX,ntp4.aliyun.com
+  - DOMAIN-SUFFIX,ntp5.aliyun.com
+  - DOMAIN-SUFFIX,ntp6.aliyun.com
+  - DOMAIN-SUFFIX,ntp7.aliyun.com
+  - DOMAIN-SUFFIX,pool.ntp.org
+  - DOMAIN-SUFFIX,s1a.time.edu.cn
+  - DOMAIN-SUFFIX,s1b.time.edu.cn
+  - DOMAIN-SUFFIX,s1c.time.edu.cn
+  - DOMAIN-SUFFIX,s1d.time.edu.cn
+  - DOMAIN-SUFFIX,s1e.time.edu.cn
+  - DOMAIN-SUFFIX,s2a.time.edu.cn
+  - DOMAIN-SUFFIX,s2b.time.edu.cn
+  - DOMAIN-SUFFIX,s2c.time.edu.cn
+  - DOMAIN-SUFFIX,s2d.time.edu.cn
+  - DOMAIN-SUFFIX,s2e.time.edu.cn
+  - DOMAIN-SUFFIX,s2f.time.edu.cn
+  - DOMAIN-SUFFIX,s2g.time.edu.cn
+  - DOMAIN-SUFFIX,s2h.time.edu.cn
+  - DOMAIN-SUFFIX,s2k.time.edu.cn
+  - DOMAIN-SUFFIX,s2m.time.edu.cn
+  - DOMAIN-SUFFIX,sgp.ntp.org.cn
+  - DOMAIN-SUFFIX,time.apple.com
+  - DOMAIN-SUFFIX,time.asia.apple.com
+  - DOMAIN-SUFFIX,time.pool.aliyun.com
+  - DOMAIN-SUFFIX,time.windows.com
+  - DOMAIN-SUFFIX,time1.aliyun.com
+  - DOMAIN-SUFFIX,time1.apple.com
+  - DOMAIN-SUFFIX,time1.cloud.tencent.com
+  - DOMAIN-SUFFIX,time1.google.com
+  - DOMAIN-SUFFIX,time1.tencentyun.com
+  - DOMAIN-SUFFIX,time2.aliyun.com
+  - DOMAIN-SUFFIX,time2.apple.com
+  - DOMAIN-SUFFIX,time2.cloud.tencent.com
+  - DOMAIN-SUFFIX,time2.google.com
+  - DOMAIN-SUFFIX,time2.tencentyun.com
+  - DOMAIN-SUFFIX,time3.aliyun.com
+  - DOMAIN-SUFFIX,time3.apple.com
+  - DOMAIN-SUFFIX,time3.cloud.tencent.com
+  - DOMAIN-SUFFIX,time3.google.com
+  - DOMAIN-SUFFIX,time3.tencentyun.com
+  - DOMAIN-SUFFIX,time4.aliyun.com
+  - DOMAIN-SUFFIX,time4.apple.com
+  - DOMAIN-SUFFIX,time4.cloud.tencent.com
+  - DOMAIN-SUFFIX,time4.google.com
+  - DOMAIN-SUFFIX,time4.tencentyun.com
+  - DOMAIN-SUFFIX,time5.aliyun.com
+  - DOMAIN-SUFFIX,time5.apple.com
+  - DOMAIN-SUFFIX,time5.cloud.tencent.com
+  - DOMAIN-SUFFIX,time5.tencentyun.com
+  - DOMAIN-SUFFIX,time6.aliyun.com
+  - DOMAIN-SUFFIX,time6.apple.com
+  - DOMAIN-SUFFIX,time7.aliyun.com
+  - DOMAIN-SUFFIX,time7.apple.com
+  - DOMAIN-SUFFIX,tw.ntp.org.cn
+  - DOMAIN-SUFFIX,us.ntp.org.cn
 
   # 特别放行
+  - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN,localhost.ptlogin2.qq.com
   - DOMAIN,localhost.sec.qq.com
@@ -60,8 +193,37 @@ payload:
   - DOMAIN-SUFFIX,ipapi.co
   - DOMAIN-SUFFIX,ip6.seeip.org
   - DOMAIN-SUFFIX,members.3322.org
+  - DOMAIN-SUFFIX,quickconnect.cn
+  - DOMAIN-SUFFIX,quickconnect.to
+  - DOMAIN-SUFFIX,quickconnect.com
+  - DOMAIN-SUFFIX,blogdns.org
+  - DOMAIN-SUFFIX,dyn.com
+  - DOMAIN-SUFFIX,dyndns-ip.com
+  - DOMAIN-SUFFIX,dyndns-pics.com
+  - DOMAIN-SUFFIX,dyndns.org
+  - DOMAIN-SUFFIX,from-pr.com
+  - DOMAIN-SUFFIX,from-sd.com
+  - DOMAIN-SUFFIX,is-a-hunter.com
+  - DOMAIN,d2f0395ykn6hxb.cloudfront.net
+  - DOMAIN-SUFFIX,diskstation.me
+  - DOMAIN-SUFFIX,dscloud.biz
+  - DOMAIN-SUFFIX,dscloud.me
+  - DOMAIN-SUFFIX,dscloud.mobi
+  - DOMAIN-SUFFIX,dsmunas.com
+  - DOMAIN-SUFFIX,dsmunas.net
+  - DOMAIN-SUFFIX,dsmunas.org
+  - DOMAIN-SUFFIX,familyds.com
+  - DOMAIN-SUFFIX,familyds.net
+  - DOMAIN-SUFFIX,familyds.org
+  - DOMAIN-SUFFIX,i234.me
+  - DOMAIN-SUFFIX,myds.com
+  - DOMAIN-SUFFIX,synodns.com
+  - DOMAIN-SUFFIX,synology.cn
+  - DOMAIN-SUFFIX,synology.com
+  - DOMAIN-SUFFIX,synology.me
 
   # 苹果定位服务
+  - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,configuration.ls.apple.com
   - DOMAIN,gspe19-ssl.ls.apple.com
   - DOMAIN,gspe19-cn-ssl.ls.apple.com
@@ -72,8 +234,19 @@ payload:
   - DOMAIN,direction2.is.autonavi.com
   - DOMAIN,dispatcher.is.autonavi.com
   - DOMAIN,gs-loc-cn.apple.com
+  - DOMAIN-SUFFIX,apple.com.cn
+  - DOMAIN,updates.cdn-apple.com
 
   # NAME: GoogleFCM
+  - DOMAIN,alt1-mtalk.google.com
+  - DOMAIN,alt2-mtalk.google.com
+  - DOMAIN,alt3-mtalk.google.com
+  - DOMAIN,alt4-mtalk.google.com
+  - DOMAIN,alt5-mtalk.google.com
+  - DOMAIN,alt6-mtalk.google.com
+  - DOMAIN,alt7-mtalk.google.com
+  - DOMAIN,alt8-mtalk.google.com
+  - DOMAIN,mtalk.google.com
 
   # WG 穿透
   - DOMAIN-SUFFIX,ipinfo.io
@@ -84,13 +257,39 @@ payload:
 
   # Tesla
   - DOMAIN-SUFFIX,tesla.cn
+  - DOMAIN-SUFFIX,tesla-cdn.thron.cn
 
   # UUBooster
 
   # Xunlei
+  - DOMAIN-SUFFIX,xunlei.com
 
   # Download
+  - DOMAIN-KEYWORD,torrent
   # Private Tracker
+  - DOMAIN-SUFFIX,awesome-hd.me
+  - DOMAIN-SUFFIX,broadcasthe.net
+  - DOMAIN-SUFFIX,chdbits.co
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk
+  - DOMAIN-SUFFIX,empornium.me
+  - DOMAIN-SUFFIX,gazellegames.net
+  - DOMAIN-SUFFIX,hdchina.org
+  - DOMAIN-SUFFIX,hdsky.me
+  - DOMAIN-SUFFIX,icetorrent.org
+  - DOMAIN-SUFFIX,jpopsuki.eu
+  - DOMAIN-SUFFIX,keepfrds.com
+  - DOMAIN-SUFFIX,madsrevolution.net
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,nanyangpt.com
+  - DOMAIN-SUFFIX,ncore.cc
+  - DOMAIN-SUFFIX,open.cd
+  - DOMAIN-SUFFIX,ourbits.club
+  - DOMAIN-SUFFIX,passthepopcorn.me
+  - DOMAIN-SUFFIX,privatehd.to
+  - DOMAIN-SUFFIX,redacted.ch
+  - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,tjupt.org
+  - DOMAIN-SUFFIX,totheglory.im
 
   - DOMAIN-KEYWORD,smtp.
   - DOMAIN-KEYWORD,imap.
@@ -104,6 +303,7 @@ payload:
   - DOMAIN-SUFFIX,enrichgw.10010.com
   - DOMAIN-SUFFIX,hmrz.wo.cn
   - DOMAIN-SUFFIX,id.mail.wo.cn
+  - DOMAIN-SUFFIX,id6.me
   - DOMAIN-SUFFIX,log.cmpassport.com
   - DOMAIN-SUFFIX,log1.cmpassport.com
   - DOMAIN-SUFFIX,mdn.open.wo.cn
@@ -117,10 +317,15 @@ payload:
   - DOMAIN,apidns.kwd.inkuai.com
   - DOMAIN,bj.vip.waf.dns.iqiyi.com
   - DOMAIN,data.video.dns.iqiyi.com
+  - DOMAIN,dns.alidns.com
   - DOMAIN,dns.iqiyi.com
+  - DOMAIN,dns.jd.com
   - DOMAIN,dns.jd.com.gslb.qianxun.com
   - DOMAIN,dns.qiyipic.iqiyi.com
   - DOMAIN,dns.qq.com
+  - DOMAIN,dns.weibo.cn
+  - DOMAIN,dns.weixin.qq.com
+  - DOMAIN,dns.weixin.qq.com.cn
   - DOMAIN,doh.dns.apple.com
   - DOMAIN,doh.iqiyi.com
   - DOMAIN,doh.ptqy.gitv.tv
@@ -129,17 +334,24 @@ payload:
   - DOMAIN,httpdns-browser.platform.dbankcloud.cn
   - DOMAIN,httpdns-platform-dbankcloud-com-drcn.wec.dbankedge.cn
   - DOMAIN,httpdns-sdk.n.netease.com
+  - DOMAIN,httpdns.alicdn.com
   - DOMAIN,httpdns.baidu.com
   - DOMAIN,httpdns.baidubce.com
   - DOMAIN,httpdns.bcelive.com
+  - DOMAIN,httpdns.bilivideo.com
   - DOMAIN,httpdns.browser.miui.com
+  - DOMAIN,httpdns.c.cdnhwc2.com
+  - DOMAIN,httpdns.calorietech.com
   - DOMAIN,httpdns.cctv.com
   - DOMAIN,httpdns.danuoyi.tbcache.com
   - DOMAIN,httpdns.gslb.yy.com
   - DOMAIN,httpdns.huaweicloud.com
   - DOMAIN,httpdns.kg.qq.com
   - DOMAIN,httpdns.kwd.inkuai.com
+  - DOMAIN,httpdns.meituan.com
+  - DOMAIN,httpdns.music.163.com
   - DOMAIN,httpdns.music.ntes53.netease.com
+  - DOMAIN,httpdns.n.netease.com
   - DOMAIN,httpdns.n.shifen.com
   - DOMAIN,httpdns.ocloud.heytapmobi.com
   - DOMAIN,httpdns.ocloud.oppomobile.com
@@ -147,16 +359,397 @@ payload:
   - DOMAIN,httpdns.platform.dbankcloud.com
   - DOMAIN,httpdns.pro
   - DOMAIN,httpdns.push.heytapmobi.com
+  - DOMAIN,httpdns.push.oppomobile.com
   - DOMAIN,httpdns.tantanapp.com
+  - DOMAIN,httpdns.volcengineapi.com
+  - DOMAIN,httpdns.yunxindns.com
   - DOMAIN,httpdns.zybang.com
   - DOMAIN,httpdns1.cc.cdnhwc5.com
   - DOMAIN,httpsdns.baidu.com
   - DOMAIN,iface2.dns.iqiyi.com
   - DOMAIN,ipv6-static.dns.iqiyi.com
+  - DOMAIN,lofter.httpdns.c.163.com
+  - DOMAIN,music.httpdns.c.163.com
   - DOMAIN,ocloud-httpdns-cn.heytapmobi.com
   - DOMAIN,passport.dns.iqiyi.com
+  - DOMAIN,resolver.msg.xiaomi.net
   - DOMAIN,static.dns.qiyipic.iqiyi.com
   - DOMAIN,v6-data.video.dns.iqiyi.com
 # ByteDance
+  - DOMAIN-SUFFIX,2333333333333.com
+  - DOMAIN-SUFFIX,365yg.com
+  - DOMAIN-SUFFIX,activity-zhendingtech.com
+  - DOMAIN-SUFFIX,activitybyte.com
+  - DOMAIN-SUFFIX,aigcarena.com
+  - DOMAIN-SUFFIX,aihst8.com
+  - DOMAIN-SUFFIX,amemv.cn
+  - DOMAIN-SUFFIX,amemv.net
+  - DOMAIN-SUFFIX,artistrylab.net
+  - DOMAIN-SUFFIX,baike.com
+  - DOMAIN-SUFFIX,bcy.net
+  - DOMAIN-SUFFIX,bcyimg.com
+  - DOMAIN-SUFFIX,bdactivity.com
+  - DOMAIN-SUFFIX,bdgslb.com
+  - DOMAIN-SUFFIX,bdurl.net
+  - DOMAIN-SUFFIX,bdxiguaimg.com
+  - DOMAIN-SUFFIX,bdxiguastatic.com
+  - DOMAIN-SUFFIX,bdxiguavod.com
+  - DOMAIN-SUFFIX,betastar.cn
+  - DOMAIN-SUFFIX,bqtalk.com
+  - DOMAIN-SUFFIX,buydouke.com
+  - DOMAIN-SUFFIX,byte-ticket.com
+  - DOMAIN-SUFFIX,byteac.com
+  - DOMAIN-SUFFIX,byteactivity.com
+  - DOMAIN-SUFFIX,byteapk.cn
+  - DOMAIN-SUFFIX,byteapk.com
+  - DOMAIN-SUFFIX,bytecdn.cn
+  - DOMAIN-SUFFIX,bytecdn.com
+  - DOMAIN-SUFFIX,bytecdntp.com
+  - DOMAIN-SUFFIX,byted-static.com
+  - DOMAIN-SUFFIX,byted.org
+  - DOMAIN-SUFFIX,bytedance.cn
+  - DOMAIN-SUFFIX,bytedance.com
+  - DOMAIN-SUFFIX,bytedance.net
+  - DOMAIN-SUFFIX,bytedance.org
+  - DOMAIN-SUFFIX,bytedanceapi.com
+  - DOMAIN-SUFFIX,bytedanceoss.net
+  - DOMAIN-SUFFIX,bytedancevod.com
+  - DOMAIN-SUFFIX,bytedns.net
+  - DOMAIN-SUFFIX,bytedns1.com
+  - DOMAIN-SUFFIX,bytedns2.com
+  - DOMAIN-SUFFIX,bytednsdoc.com
+  - DOMAIN-SUFFIX,byteeffecttos.com
+  - DOMAIN-SUFFIX,bytefcdn.com
+  - DOMAIN-SUFFIX,bytefcdnrd.com
+  - DOMAIN-SUFFIX,bytegecko.com
+  - DOMAIN-SUFFIX,bytegoofy.com
+  - DOMAIN-SUFFIX,bytegslb.com
+  - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,bytelb.net
+  - DOMAIN-SUFFIX,bytelove.cn
+  - DOMAIN-SUFFIX,bytemaimg.com
+  - DOMAIN-SUFFIX,bytescm.com
+  - DOMAIN-SUFFIX,bytesfield.com
+  - DOMAIN-SUFFIX,bytesmanager.com
+  - DOMAIN-SUFFIX,bytesyscdn.com
+  - DOMAIN-SUFFIX,bytetcc.com
+  - DOMAIN-SUFFIX,bytetos.com
+  - DOMAIN-SUFFIX,byteurl.cn
+  - DOMAIN-SUFFIX,bytexservice.com
+  - DOMAIN-SUFFIX,capturetheflag.fun
+  - DOMAIN-SUFFIX,cdn-build.com
+  - DOMAIN-SUFFIX,cdn-build.net
+  - DOMAIN-SUFFIX,cdndns1.com
+  - DOMAIN-SUFFIX,cdndns2.com
+  - DOMAIN-SUFFIX,changdunovel.com
+  - DOMAIN-SUFFIX,cookicut.com
+  - DOMAIN-SUFFIX,csjplatform.com
+  - DOMAIN-SUFFIX,dailygn.com
+  - DOMAIN-SUFFIX,dcarapi.com
+  - DOMAIN-SUFFIX,dcarimg.com
+  - DOMAIN-SUFFIX,dcarlive.com
+  - DOMAIN-SUFFIX,dcarstatic.com
+  - DOMAIN-SUFFIX,dcarvod.com
+  - DOMAIN-SUFFIX,dcdapp.com
+  - DOMAIN-SUFFIX,dongchedi.com
+  - DOMAIN-SUFFIX,dongchediapp.com
+  - DOMAIN-SUFFIX,dou.top
+  - DOMAIN-SUFFIX,doubao.cn
+  - DOMAIN-SUFFIX,doubao.com
+  - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,douyinact.com
+  - DOMAIN-SUFFIX,douyinact.net
+  - DOMAIN-SUFFIX,douyinclips.com
+  - DOMAIN-SUFFIX,douyinec.com
+  - DOMAIN-SUFFIX,douyinhanyu.com
+  - DOMAIN-SUFFIX,douyinliving.com
+  - DOMAIN-SUFFIX,douyinmusicclips.com
+  - DOMAIN-SUFFIX,douyinmusicvideo.com
+  - DOMAIN-SUFFIX,douyinshortvideo.com
+  - DOMAIN-SUFFIX,douyinvideo.net
+  - DOMAIN-SUFFIX,dymusictape.com
+  - DOMAIN-SUFFIX,dymusicvideo.com
+  - DOMAIN-SUFFIX,dyshortvideo.com
+  - DOMAIN-SUFFIX,dyvideotape.com
+  - DOMAIN-SUFFIX,ecom-lightapp.com
+  - DOMAIN-SUFFIX,ecombdapi.com
+  - DOMAIN-SUFFIX,ecombdimg.com
+  - DOMAIN-SUFFIX,ecombdstatic.com
+  - DOMAIN-SUFFIX,ecombdvod.com
+  - DOMAIN-SUFFIX,faceu.com
+  - DOMAIN-SUFFIX,faceu.com.cn
+  - DOMAIN-SUFFIX,faceu.mobi
+  - DOMAIN-SUFFIX,faceu.net
+  - DOMAIN-SUFFIX,fanqiecopyright.com
+  - DOMAIN-SUFFIX,fanqieopen.com
+  - DOMAIN-SUFFIX,fanqieopenpic.com
+  - DOMAIN-SUFFIX,fanqieopenstatic.com
+  - DOMAIN-SUFFIX,fanqieopenvod.com
+  - DOMAIN-SUFFIX,fanqiesdk.com
+  - DOMAIN-SUFFIX,fanqiesdkpic.com
+  - DOMAIN-SUFFIX,fanqiesdkstatic.com
+  - DOMAIN-SUFFIX,fanqiesdkvod.com
+  - DOMAIN-SUFFIX,feelgood.cn
+  - DOMAIN-SUFFIX,feiliao.com
+  - DOMAIN-SUFFIX,feishu.cn
+  - DOMAIN-SUFFIX,feishucdn.com
+  - DOMAIN-SUFFIX,fqnovel-op.com
+  - DOMAIN-SUFFIX,fqnovel.com
+  - DOMAIN-SUFFIX,fqnovelim.com
+  - DOMAIN-SUFFIX,fqnovelop.com
+  - DOMAIN-SUFFIX,fqnovelpic.com
+  - DOMAIN-SUFFIX,fqnovelstatic.com
+  - DOMAIN-SUFFIX,fqnovelvod.com
+  - DOMAIN-SUFFIX,fullluckcalendar.com
+  - DOMAIN-SUFFIX,gifshow.com
+  - DOMAIN-SUFFIX,gogokid.com
+  - DOMAIN-SUFFIX,gogokid.com.cn
+  - DOMAIN-SUFFIX,goodluckcalendar.com
+  - DOMAIN-SUFFIX,goofy-edge.cn
+  - DOMAIN-SUFFIX,healthybaike.com
+  - DOMAIN-SUFFIX,heycan.com
+  - DOMAIN-SUFFIX,hijackorg.net
+  - DOMAIN-SUFFIX,hotsoonapp.cn
+  - DOMAIN-SUFFIX,hotsoonapp.com
+  - DOMAIN-SUFFIX,hotsoonapp.net
+  - DOMAIN-SUFFIX,hotsoonvideo.cn
+  - DOMAIN-SUFFIX,hotsoonvideo.com
+  - DOMAIN-SUFFIX,hotsoonvideo.net
+  - DOMAIN-SUFFIX,hotsoonzb.cn
+  - DOMAIN-SUFFIX,hotsoonzb.com
+  - DOMAIN-SUFFIX,hotsoonzb.net
+  - DOMAIN-SUFFIX,huaxiong.com
+  - DOMAIN-SUFFIX,huoshan.com
+  - DOMAIN-SUFFIX,huoshancdn.com
+  - DOMAIN-SUFFIX,huoshangroup.com
+  - DOMAIN-SUFFIX,huoshanimg.com
+  - DOMAIN-SUFFIX,huoshanlive.com
+  - DOMAIN-SUFFIX,huoshanparty.com
+  - DOMAIN-SUFFIX,huoshanstatic.com
+  - DOMAIN-SUFFIX,huoshante8.com
+  - DOMAIN-SUFFIX,huoshanvideo.cn
+  - DOMAIN-SUFFIX,huoshanvideo.net
+  - DOMAIN-SUFFIX,huoshanvod.com
+  - DOMAIN-SUFFIX,huoshanxiaoshipin.cn
+  - DOMAIN-SUFFIX,huoshanxiaoshipin.net
+  - DOMAIN-SUFFIX,huoshanzhibo.cn
+  - DOMAIN-SUFFIX,huoshanzhibo.com
+  - DOMAIN-SUFFIX,huoshanzhibo.net
+  - DOMAIN-SUFFIX,ibytedapm.com
+  - DOMAIN-SUFFIX,icphoto.cn
+  - DOMAIN-SUFFIX,idouyinpic.com
+  - DOMAIN-SUFFIX,idouyinstatic.com
+  - DOMAIN-SUFFIX,iesdouyin.com
+  - DOMAIN-SUFFIX,iesdouyin.net
+  - DOMAIN-SUFFIX,ieshs.cn
+  - DOMAIN-SUFFIX,ieshs.com
+  - DOMAIN-SUFFIX,ieshs.net
+  - DOMAIN-SUFFIX,ieshuodong.cn
+  - DOMAIN-SUFFIX,ieshuodong.net
+  - DOMAIN-SUFFIX,ieshuoshan.cn
+  - DOMAIN-SUFFIX,ieshuoshan.com
+  - DOMAIN-SUFFIX,ieshuoshan.net
+  - DOMAIN-SUFFIX,ihaohaoxuexi.com
+  - DOMAIN-SUFFIX,ihst8.com
+  - DOMAIN-SUFFIX,ihuoshanimg.com
+  - DOMAIN-SUFFIX,ihuoshanvod.com
+  - DOMAIN-SUFFIX,inluckcalendar.com
+  - DOMAIN-SUFFIX,ixgvideo.com
+  - DOMAIN-SUFFIX,jinritemai-inc.com
+  - DOMAIN-SUFFIX,jinritemai.com
+  - DOMAIN-SUFFIX,jinritoutiao.com
+  - DOMAIN-SUFFIX,jiyi.biz
+  - DOMAIN-SUFFIX,jiyi.top
+  - DOMAIN-SUFFIX,jiyunhudong.cn
+  - DOMAIN-SUFFIX,jiyunhudong.com
+  - DOMAIN-SUFFIX,jiyunhudong.net
+  - DOMAIN-SUFFIX,jokecommunity.cn
+  - DOMAIN-SUFFIX,jokecommunity.com
+  - DOMAIN-SUFFIX,jokecommunity.net
+  - DOMAIN-SUFFIX,jstti.com
+  - DOMAIN-SUFFIX,jtamac.com
+  - DOMAIN-SUFFIX,juejin.cn
+  - DOMAIN-SUFFIX,juejin.im
+  - DOMAIN-SUFFIX,juliangyinqing.cn
+  - DOMAIN-SUFFIX,juliangyinqing.com
+  - DOMAIN-SUFFIX,juliangyinqing.net
+  - DOMAIN-SUFFIX,knightedge.com
+  - DOMAIN-SUFFIX,kolbuyer.cn
+  - DOMAIN-SUFFIX,kspkg.com
+  - DOMAIN-SUFFIX,larksuite.com
+  - DOMAIN-SUFFIX,larksuitecdn.com
+  - DOMAIN-SUFFIX,lingovalley-cdn.cn
+  - DOMAIN-SUFFIX,luckforcalendar.com
+  - DOMAIN-SUFFIX,luckincalendar.com
+  - DOMAIN-SUFFIX,luckycalendar.cn
+  - DOMAIN-SUFFIX,maidouke.com
+  - DOMAIN-SUFFIX,marscode.cn
+  - DOMAIN-SUFFIX,mobilelegends.com
+  - DOMAIN-SUFFIX,moonton.com
+  - DOMAIN-SUFFIX,muyewx.com
+  - DOMAIN-SUFFIX,ndcpp.com
+  - DOMAIN-SUFFIX,neihancommunity.cn
+  - DOMAIN-SUFFIX,neihancommunity.com
+  - DOMAIN-SUFFIX,neihancommunity.net
+  - DOMAIN-SUFFIX,neihandiantai.cn
+  - DOMAIN-SUFFIX,neihandiantai.com
+  - DOMAIN-SUFFIX,neihandiantai.com.cn
+  - DOMAIN-SUFFIX,neihanshequ.cn
+  - DOMAIN-SUFFIX,neihanshequ.com
+  - DOMAIN-SUFFIX,nhlink.cn
+  - DOMAIN-SUFFIX,nhurl.cn
+  - DOMAIN-SUFFIX,novelfm.com
+  - DOMAIN-SUFFIX,novelfmpic.com
+  - DOMAIN-SUFFIX,novelfmstatic.com
+  - DOMAIN-SUFFIX,novelfmvod.com
+  - DOMAIN-SUFFIX,nvsgames.cn
+  - DOMAIN-SUFFIX,oceanengine.cn
+  - DOMAIN-SUFFIX,oceanengine.com
+  - DOMAIN-SUFFIX,oortgslb.com
+  - DOMAIN-SUFFIX,pacmantwo.com
+  - DOMAIN-SUFFIX,pangle.cn
+  - DOMAIN-SUFFIX,pangolin-dsp-toutiao-b.com
+  - DOMAIN-SUFFIX,pangolin-dsp-toutiao.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+  - DOMAIN-SUFFIX,panplayable-toutiao-b.com
+  - DOMAIN-SUFFIX,panplayable-toutiao.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao-b.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com
+  - DOMAIN-SUFFIX,pipix.com
+  - DOMAIN-SUFFIX,qmoji.mobi
+  - DOMAIN-SUFFIX,qmoji.net
+  - DOMAIN-SUFFIX,qwconnect.top
+  - DOMAIN-SUFFIX,qznovelpic.com
+  - DOMAIN-SUFFIX,qznovelstatic.com
+  - DOMAIN-SUFFIX,qznovelvod.com
+  - DOMAIN-SUFFIX,ribaoapi.com
+  - DOMAIN-SUFFIX,ribaocdn.com
+  - DOMAIN-SUFFIX,samasty.com
+  - DOMAIN-SUFFIX,semi.design
+  - DOMAIN-SUFFIX,shoppingads.cn
+  - DOMAIN-SUFFIX,smartisan.cn
+  - DOMAIN-SUFFIX,smartisan.com
+  - DOMAIN-SUFFIX,smartisanos.cn
+  - DOMAIN-SUFFIX,smartisanos.com
+  - DOMAIN-SUFFIX,tekkenthree.com
+  - DOMAIN-SUFFIX,temaiapi.com
+  - DOMAIN-SUFFIX,tetrisone.com
+  - DOMAIN-SUFFIX,tiquality.cn
+  - DOMAIN-SUFFIX,tiquality.com.cn
+  - DOMAIN-SUFFIX,toscdn.com
+  - DOMAIN-SUFFIX,toutiao11.com
+  - DOMAIN-SUFFIX,toutiao12.com
+  - DOMAIN-SUFFIX,toutiao13.com
+  - DOMAIN-SUFFIX,toutiao14.com
+  - DOMAIN-SUFFIX,toutiao15.com
+  - DOMAIN-SUFFIX,toutiaoapi.com
+  - DOMAIN-SUFFIX,toutiaocdn.cn
+  - DOMAIN-SUFFIX,toutiaocdn.com
+  - DOMAIN-SUFFIX,toutiaocdn.net
+  - DOMAIN-SUFFIX,toutiaocloud.cn
+  - DOMAIN-SUFFIX,toutiaocloud.com
+  - DOMAIN-SUFFIX,toutiaocloud.net
+  - DOMAIN-SUFFIX,toutiaohao.cn
+  - DOMAIN-SUFFIX,toutiaohao.com
+  - DOMAIN-SUFFIX,toutiaohao.com.cn
+  - DOMAIN-SUFFIX,toutiaohao.net
+  - DOMAIN-SUFFIX,toutiaoimg.cn
+  - DOMAIN-SUFFIX,toutiaoimg.com
+  - DOMAIN-SUFFIX,toutiaoimg.net
+  - DOMAIN-SUFFIX,toutiaojisu.com
+  - DOMAIN-SUFFIX,toutiaolite.com
+  - DOMAIN-SUFFIX,toutiaolite1.com
+  - DOMAIN-SUFFIX,toutiaolite2.com
+  - DOMAIN-SUFFIX,toutiaopage.com
+  - DOMAIN-SUFFIX,toutiaoribao.cn
+  - DOMAIN-SUFFIX,toutiaoribao.net
+  - DOMAIN-SUFFIX,toutiaostatic.com
+  - DOMAIN-SUFFIX,toutiaovod.com
+  - DOMAIN-SUFFIX,toutiaowap.cn
+  - DOMAIN-SUFFIX,toutiaowap.com
+  - DOMAIN-SUFFIX,toutiaowap.net
+  - DOMAIN-SUFFIX,trae.cn
+  - DOMAIN-SUFFIX,trae.com.cn
+  - DOMAIN-SUFFIX,ttbyte.cn
+  - DOMAIN-SUFFIX,ttbyte.com
+  - DOMAIN-SUFFIX,ttbyte.net
+  - DOMAIN-SUFFIX,ttjisu.com
+  - DOMAIN-SUFFIX,ugapk.cn
+  - DOMAIN-SUFFIX,ugapk.com
+  - DOMAIN-SUFFIX,ugh5.cn
+  - DOMAIN-SUFFIX,ugsdk.cn
+  - DOMAIN-SUFFIX,ugurl.cc
+  - DOMAIN-SUFFIX,ugurl.cn
+  - DOMAIN-SUFFIX,ulikecam.cn
+  - DOMAIN-SUFFIX,ulikecam.com
+  - DOMAIN-SUFFIX,ulikecam.mobi
+  - DOMAIN-SUFFIX,ulikecam.net
+  - DOMAIN-SUFFIX,varchserverqa.com
+  - DOMAIN-SUFFIX,vireala.com
+  - DOMAIN-SUFFIX,vireala.net
+  - DOMAIN-SUFFIX,visactor.com
+  - DOMAIN-SUFFIX,volccdn.com
+  - DOMAIN-SUFFIX,volcdem.com
+  - DOMAIN-SUFFIX,volceapplog.com
+  - DOMAIN-SUFFIX,volcengine.com
+  - DOMAIN-SUFFIX,volces.com
+  - DOMAIN-SUFFIX,volcsirius.com
+  - DOMAIN-SUFFIX,woaihuoshan.com
+  - DOMAIN-SUFFIX,wohst8.com
+  - DOMAIN-SUFFIX,wtturl.cn
+  - DOMAIN-SUFFIX,wukong.com
+  - DOMAIN-SUFFIX,wukongwenda.cn
+  - DOMAIN-SUFFIX,wukongwenda.com
+  - DOMAIN-SUFFIX,xiguaapp.cn
+  - DOMAIN-SUFFIX,xiguaapp.com
+  - DOMAIN-SUFFIX,xiguashipin.cn
+  - DOMAIN-SUFFIX,xiguashipin.net
+  - DOMAIN-SUFFIX,xiguavideo.cn
+  - DOMAIN-SUFFIX,xiguavideo.net
+  - DOMAIN-SUFFIX,xitu.io
+  - DOMAIN-SUFFIX,yhgfb-cn-static.com
+  - DOMAIN-SUFFIX,youdianyisi.com
+  - DOMAIN-SUFFIX,yueantech.com.cn
+  - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN-SUFFIX,zijiecdn.cn
+  - DOMAIN-SUFFIX,zijiecdn.com
+  - DOMAIN-SUFFIX,zijiecdn.net
+  - DOMAIN-SUFFIX,zijieimg.cn
+  - DOMAIN-SUFFIX,zijieimg.com
+  - DOMAIN-SUFFIX,zijieimg.net
+  - DOMAIN-SUFFIX,zijieurl.cn
+  - DOMAIN-SUFFIX,zijieurl.com
+  - DOMAIN-SUFFIX,zijieurl.net
+  - DOMAIN-SUFFIX,zijiewap.cn
+  - DOMAIN-SUFFIX,zijiewap.com
+  - DOMAIN-SUFFIX,zijiewap.net
+  - DOMAIN-SUFFIX,zilrms.com
+  - DOMAIN-SUFFIX,ziyrta.com
+  - DOMAIN-SUFFIX,zjbyte.cn
+  - DOMAIN-SUFFIX,zjbyte.com
+  - DOMAIN-SUFFIX,zjbyte.net
+  - DOMAIN-SUFFIX,zjcdn.com
+  - DOMAIN,v5-dy-o-abtest.zjcdn.com
+  - DOMAIN-SUFFIX,zjgslb.com
+  - DOMAIN-SUFFIX,zjurl.cn
+  - DOMAIN-SUFFIX,zlinkurl.cn
+  - DOMAIN-SUFFIX,zlinkurl.com
+  - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,douyinstatic.com
+  - DOMAIN-SUFFIX,douyinvod.com
+  - DOMAIN-SUFFIX,idouyinvod.com
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,ixiguavideo.com
+  - DOMAIN,lf3-static.bytednsdoc.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,toutiao.com
 
   # 测速
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-SUFFIX,kcdnvip.com

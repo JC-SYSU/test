@@ -1,11 +1,15 @@
 payload:
   # 其他域名
   - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,calibre-ebook.com
   - DOMAIN-SUFFIX,archive.org
   - DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-KEYWORD,tt-v-cloudflare
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare.net
   - DOMAIN-SUFFIX,cloudflare-gateway.com
+  - DOMAIN-SUFFIX,cloudflareclient.com
   - DOMAIN,osx.telegram.org
   - DOMAIN,ouo.io
   - DOMAIN-SUFFIX,happymh.com
@@ -16,6 +20,8 @@ payload:
   - DOMAIN-SUFFIX,digit77.com
   - DOMAIN-SUFFIX,minorpatch.com
   - DOMAIN-SUFFIX,nmac.to
+  - DOMAIN-SUFFIX,yandex.ru
+  - DOMAIN-SUFFIX,userapi.com
   - DOMAIN-SUFFIX,mediafire.com
   - DOMAIN-SUFFIX,mediafiredls.com
   - DOMAIN-SUFFIX,akirabox.com
@@ -23,17 +29,22 @@ payload:
   - DOMAIN-SUFFIX,ezodn.com
   - DOMAIN,trashbytes.net
   - DOMAIN-SUFFIX,dl-faster.xyz
+  - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,massgrave.dev
   - DOMAIN-SUFFIX,delivery.activated.win
   - DOMAIN-SUFFIX,software.download.prss.microsoft.com
   - DOMAIN-SUFFIX,openwrt.org
   - DOMAIN-SUFFIX,proxmox.com
   - DOMAIN-SUFFIX,ezgif.com
+  - DOMAIN-SUFFIX,1drv.com
+  - DOMAIN-SUFFIX,livefilestore.com
+  - DOMAIN-SUFFIX,oneclient.sfx.ms
   - DOMAIN-SUFFIX,audioz.download
   - DOMAIN-SUFFIX,rg.to
   - DOMAIN-SUFFIX,katfile.com
   - DOMAIN-SUFFIX,peeplink.in
   - DOMAIN-SUFFIX,nitroflare.com
   - DOMAIN-SUFFIX,rapidgator.net
+  - DOMAIN-KEYWORD,1drv
   - DOMAIN-SUFFIX,libnnc.org
   - DOMAIN-SUFFIX,topazlabs.com

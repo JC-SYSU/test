@@ -14,9 +14,16 @@ payload:
 
   # === 2. 通用后缀匹配 (DOMAIN-SUFFIX) ===
   # 整合自 uselibrary ||example.com^ 格式
+  - DOMAIN-SUFFIX,bsccdn.net
   - DOMAIN-SUFFIX,gjfzpt.cn
+  - DOMAIN-SUFFIX,jomodns.cn
+  - DOMAIN-SUFFIX,kuiniuca.com
   - DOMAIN-SUFFIX,pkoplink.com
+  - DOMAIN-SUFFIX,saxysec.com
   - DOMAIN-SUFFIX,szbdyd.com
+  - DOMAIN-SUFFIX,uhabo.com
+  - DOMAIN-SUFFIX,xycdn.com
+  - DOMAIN-SUFFIX,onethingpcs.com
   - DOMAIN-SUFFIX,pcdn.zbox.org.cn
   - DOMAIN-SUFFIX,mcdn.bilivideo.cn
   - DOMAIN-SUFFIX,szbdydns.com
@@ -45,6 +52,7 @@ payload:
 
   # === 5. IP段匹配 (IP-CIDR) ===
   # 整合自 uselibrary 的 IP 拦截列表，配合 no-resolve 提升性能
+  - IP-CIDR,101.71.154.241/32,no-resolve
   - IP-CIDR,121.56.81.0/24,no-resolve
   - IP-CIDR,117.188.0.0/16,no-resolve
   - IP-CIDR,111.175.220.160/28,no-resolve
