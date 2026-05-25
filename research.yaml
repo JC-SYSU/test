@@ -3,43 +3,30 @@ payload:
   - DOMAIN-SUFFIX,embase.com
   - DOMAIN-SUFFIX,cochranelibrary.com
   - DOMAIN-SUFFIX,ikmdoab.cn
-  - DOMAIN-SUFFIX,doi.org
   - DOMAIN-SUFFIX,medrxiv.org
-  - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,.sk
   - DOMAIN-SUFFIX,biopharmadive.com
   - DOMAIN-SUFFIX,pharmatimes.com
-  - DOMAIN-SUFFIX,sagepub.com
 # SCI-HUB
   - DOMAIN-KEYWORD,sci-hub
-  - DOMAIN-SUFFIX,sci-hub.tw
   - DOMAIN-SUFFIX,sci-hub.si
   - DOMAIN-SUFFIX,sci-hub.se
 
 # Elsevier
   - DOMAIN,elsevierlimited.tt.omtrdc.net
-  - DOMAIN-SUFFIX,elsevier.com
-  - DOMAIN-SUFFIX,sciencedirect.com
-  - DOMAIN-SUFFIX,sciencedirectassets.com
 # AME
   - DOMAIN-SUFFIX,amegroups.com
 
 # Springer
-  - DOMAIN-SUFFIX,springernature.com
   - DOMAIN-SUFFIX,springernature.io
-  - DOMAIN-SUFFIX,nature.com
-  - DOMAIN-SUFFIX,nr-data.net
   - DOMAIN,cdn.cookielaw.org
   - DOMAIN,cdn.smassets.net
   - DOMAIN,prod.smassets.net
   - DOMAIN,secure.surveymonkey.com
   - DOMAIN,www.surveymonkey.co.uk
 # BMC
-  - DOMAIN-SUFFIX,biomedcentral.com
-  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,airbrake.io
 # BMJ
-  - DOMAIN-SUFFIX,bmj.com
 # ScholarOne
   - DOMAIN-SUFFIX,akstat.io
 # Taylor & francis
@@ -48,7 +35,6 @@ payload:
   - DOMAIN,certify-js.alexametrics.com
   - DOMAIN,certify.alexametrics.com
   - DOMAIN,secure.late6year.com
-  - DOMAIN,static.cloudflareinsights.com
   - DOMAIN,t.contentsquare.net
   - DOMAIN,go.taylorandfrancis.com
   - DOMAIN,pi.pardot.com
@@ -57,7 +43,6 @@ payload:
   - DOMAIN,review.hindawi.com
   - DOMAIN,sso.hindawi.com
   - DOMAIN,review-gateway.hindawi.com
-  - DOMAIN-SUFFIX,hotjar.com
   - DOMAIN,s.yimg.com
   - DOMAIN,sp.analytics.yahoo.com
   - DOMAIN-SUFFIX,getsitecontrol.com
@@ -68,15 +53,11 @@ payload:
 
 # Clarivate
   - DOMAIN-KEYWORD,clarivate
-  - DOMAIN-SUFFIX,clarivate.com
-  - DOMAIN-SUFFIX,webofscience.com
 # ResearchGate
-  - DOMAIN-SUFFIX,researchgate.net
   - DOMAIN-SUFFIX,rgstatic.net
 
 # > Navisite, Inc.
   - DOMAIN-SUFFIX,editorialmanager.com
-  - DOMAIN-SUFFIX,scopus.com
   - DOMAIN-SUFFIX,edmgr.com
   - DOMAIN,edmgr.ovid.com
   - DOMAIN-SUFFIX,ariessys.com
@@ -88,14 +69,9 @@ payload:
   - DOMAIN-SUFFIX,msubmit.net
 
 # > Frontiersin
-  - DOMAIN-SUFFIX,frontiersin.org
   - DOMAIN-SUFFIX,rackcdn.com
   - DOMAIN-SUFFIX,igodigital.com
-  - DOMAIN-SUFFIX,newrelic.com
-  - DOMAIN-SUFFIX,addthis.com
   - DOMAIN-SUFFIX,visitors.live
-  - DOMAIN-SUFFIX,salesforceliveagent.com
-  - DOMAIN-SUFFIX,qualtrics.com
   - DOMAIN,frontiers.my.salesforce.com
   - DOMAIN-SUFFIX,test-frontiersin.net
   - DOMAIN,api.segment.io
@@ -115,17 +91,13 @@ payload:
 
 # > Wily
   - DOMAIN-SUFFIX,atyponrex.com
-  - DOMAIN-SUFFIX,wiley.com
   - DOMAIN,validate.onecount.net
   - DOMAIN,wileypublishing.sc.omtrdc.net
   - DOMAIN,wiley.grapeshot.co.uk
   - DOMAIN-SUFFIX,112.2o7.net
-  - DOMAIN-SUFFIX,unpkg.com
   - DOMAIN-SUFFIX,osano.com
   - DOMAIN-SUFFIX,pingdom.net
   - DOMAIN-SUFFIX,riskified.com
-  - DOMAIN-SUFFIX,krxd.net
-  - DOMAIN-SUFFIX,3gl.net
   - DOMAIN-SUFFIX,alexametrics.co
   - DOMAIN-SUFFIX,scitrus.com
   - DOMAIN-SUFFIX,manuscripts.io
@@ -135,11 +107,9 @@ payload:
 # Baishideng
   - DOMAIN-SUFFIX,f6publishing.com
   - DOMAIN-SUFFIX,wjgnet.com
-  - DOMAIN-SUFFIX,windows.net
 
 # 学术网站
 # Cambridge
-  - DOMAIN-SUFFIX,cambridge.org
   - DOMAIN-SUFFIX,crazyegg.com
   - DOMAIN-SUFFIX,.eu
 
@@ -150,13 +120,11 @@ payload:
   - DOMAIN-SUFFIX,journalonweb.in
 
 # Lancet
-  - DOMAIN-SUFFIX,thelancet.com
   
 # WROCLAW
   - DOMAIN-SUFFIX,.pl
   
 # NEJM
-  - DOMAIN-SUFFIX,nejm.org
   - DOMAIN-SUFFIX,nejmcareercenter.org
   - DOMAIN-SUFFIX,nejmgroup.org
 
