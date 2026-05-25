@@ -58,29 +58,12 @@ payload:
   - DOMAIN-SUFFIX,cdn.ubi.com
   - DOMAIN-SUFFIX,dyn.riotcdn.net
   - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,ip6-localhost
   - DOMAIN-SUFFIX,ip6-loopback
   - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,local
   - DOMAIN-SUFFIX,localhost
-  - DOMAIN,instant.arubanetworks.com
-  - DOMAIN,setmeup.arubanetworks.com
-  - DOMAIN,router.asus.com
-  - DOMAIN,www.asusrouter.com
-  - DOMAIN-SUFFIX,hiwifi.com
-  - DOMAIN-SUFFIX,leike.cc
   - DOMAIN-SUFFIX,miwifi.com
-  - DOMAIN-SUFFIX,my.router
-  - DOMAIN-SUFFIX,p.to
-  - DOMAIN-SUFFIX,peiluyou.com
-  - DOMAIN-SUFFIX,phicomm.me
-  - DOMAIN-SUFFIX,router.ctc
-  - DOMAIN-SUFFIX,routerlogin.com
-  - DOMAIN-SUFFIX,tendawifi.com
-  - DOMAIN-SUFFIX,zte.home
-  - DOMAIN-SUFFIX,tplogin.cn
-  - DOMAIN-SUFFIX,wifi.cmcc
 
   # NTP 服务
   - DOMAIN-SUFFIX,cn.ntp.org.cn
@@ -223,7 +206,6 @@ payload:
   - DOMAIN-SUFFIX,synology.me
 
   # 苹果定位服务
-  - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,configuration.ls.apple.com
   - DOMAIN,gspe19-ssl.ls.apple.com
   - DOMAIN,gspe19-cn-ssl.ls.apple.com
@@ -317,7 +299,6 @@ payload:
   - DOMAIN,apidns.kwd.inkuai.com
   - DOMAIN,bj.vip.waf.dns.iqiyi.com
   - DOMAIN,data.video.dns.iqiyi.com
-  - DOMAIN,dns.alidns.com
   - DOMAIN,dns.iqiyi.com
   - DOMAIN,dns.jd.com
   - DOMAIN,dns.jd.com.gslb.qianxun.com
@@ -731,23 +712,10 @@ payload:
   - DOMAIN-SUFFIX,zjbyte.com
   - DOMAIN-SUFFIX,zjbyte.net
   - DOMAIN-SUFFIX,zjcdn.com
-  - DOMAIN,v5-dy-o-abtest.zjcdn.com
   - DOMAIN-SUFFIX,zjgslb.com
   - DOMAIN-SUFFIX,zjurl.cn
   - DOMAIN-SUFFIX,zlinkurl.cn
   - DOMAIN-SUFFIX,zlinkurl.com
-  - DOMAIN-SUFFIX,amemv.com
-  - DOMAIN-SUFFIX,douyincdn.com
-  - DOMAIN-SUFFIX,douyinpic.com
-  - DOMAIN-SUFFIX,douyinstatic.com
-  - DOMAIN-SUFFIX,douyinvod.com
-  - DOMAIN-SUFFIX,idouyinvod.com
-  - DOMAIN-SUFFIX,ixigua.com
-  - DOMAIN-SUFFIX,ixiguavideo.com
-  - DOMAIN,lf3-static.bytednsdoc.com
-  - DOMAIN-SUFFIX,pstatp.com
-  - DOMAIN-SUFFIX,snssdk.com
-  - DOMAIN-SUFFIX,toutiao.com
 
   # 测速
   - DOMAIN-SUFFIX,ooklaserver.net

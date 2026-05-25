@@ -1,9 +1,6 @@
 payload:
   # 其他域名
-  - DOMAIN-SUFFIX,huggingface.co
-  - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,calibre-ebook.com
-  - DOMAIN-SUFFIX,archive.org
   - DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-KEYWORD,tt-v-cloudflare
   - DOMAIN-SUFFIX,cloudflare.com
@@ -29,7 +26,6 @@ payload:
   - DOMAIN-SUFFIX,ezodn.com
   - DOMAIN,trashbytes.net
   - DOMAIN-SUFFIX,dl-faster.xyz
-  - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,massgrave.dev
   - DOMAIN-SUFFIX,delivery.activated.win
   - DOMAIN-SUFFIX,software.download.prss.microsoft.com

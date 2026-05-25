@@ -37,7 +37,6 @@ payload:
   - DOMAIN,ff.dorado.sdo.com
   - DOMAIN,shark007.net
   - DOMAIN,Mijia Cloud
-  - DOMAIN,local.adguard.org
   - DOMAIN,ps.res.netease.com
   - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,localdomain
@@ -46,7 +45,6 @@ payload:
   - DOMAIN-SUFFIX,localhost
   - DOMAIN-SUFFIX,test
   - DOMAIN-SUFFIX,local
-  - DOMAIN-SUFFIX,home.arpa
   - DOMAIN-SUFFIX,direct
   - DOMAIN-KEYWORD,webvpn
   - DOMAIN-SUFFIX,blzstatic.cn
@@ -83,7 +81,6 @@ payload:
   - DOMAIN-SUFFIX,linksys.com
   - DOMAIN-SUFFIX,linksyssmartwifi.com
   - DOMAIN-SUFFIX,router.asus.com
-  - DOMAIN-SUFFIX,nflxvideo.net
   - DOMAIN-SUFFIX,square-enix.com
   - DOMAIN-SUFFIX,finalfantasyxiv.com
   - DOMAIN-SUFFIX,ffxiv.com
@@ -95,7 +92,6 @@ payload:
   - DOMAIN-SUFFIX,n0808.com
   - DOMAIN-SUFFIX,uu.163.com
   - DOMAIN-SUFFIX,pub.3gppnetwork.org
-  - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-SUFFIX,9nali.com
   - DOMAIN-SUFFIX,conchdate.com
   - DOMAIN-SUFFIX,himalaya.com
