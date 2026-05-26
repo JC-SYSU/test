@@ -11,6 +11,34 @@ payload:
   - DOMAIN-SUFFIX,sqplay.st
   - DOMAIN-SUFFIX,photoengine.io
   - DOMAIN-SUFFIX,googleadserving.cn
+  # 机场
+  - DOMAIN-SUFFIX,nexconvert.com
+  - DOMAIN-SUFFIX,zerotier.com
+  - DOMAIN-SUFFIX,ctcxianyu.com
+  - DOMAIN-SUFFIX,immtele.com
+  - DOMAIN-SUFFIX,linkeless.com
+  - DOMAIN-SUFFIX,linkcube.org
+  - DOMAIN-SUFFIX,amysecure.com
+  - DOMAIN-SUFFIX,nexitally.com
+  - DOMAIN-SUFFIX,recmata.net
+  - DOMAIN-SUFFIX,kuromis.com
+  - DOMAIN-SUFFIX,mesl.cloud
+  - DOMAIN-KEYWORD,sntp
+  - DOMAIN-SUFFIX,nexuscloud.ch
+  - DOMAIN-SUFFIX,flowercloud.net
+  - DOMAIN-SUFFIX,wd-gold.com
+  - DOMAIN-SUFFIX,tagss.pro
+  - DOMAIN-SUFFIX,jinglongyu.com
+  - DOMAIN-SUFFIX,wgetcloud.ltd
+  - DOMAIN-SUFFIX,facmata.net
+  - DOMAIN-SUFFIX,facal.one
+  - DOMAIN-SUFFIX,synn.cc
+  - DOMAIN-SUFFIX,eggtartcloud.shop
+  - DOMAIN-SUFFIX,esnc.link
+  - DOMAIN-SUFFIX,newyun.top
+  - DOMAIN-SUFFIX,prodigal4936.com
+  - DOMAIN-SUFFIX,kendeji.io
+  - DOMAIN-SUFFIX,inetslink.de
 
   # 从 research 迁移的非学术通用条目
   - DOMAIN-SUFFIX,demdex.net
