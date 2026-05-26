@@ -41,6 +41,9 @@ payload:
   - DOMAIN-SUFFIX,inetslink.de
 
   # 从 research 迁移的非学术通用条目
+  - DOMAIN-SUFFIX,skywork.ai
+  - DOMAIN-SUFFIX,skyworkcdn.com
+  - DOMAIN-SUFFIX,airwallex.com
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,.sk
   - DOMAIN-SUFFIX,nr-data.net
