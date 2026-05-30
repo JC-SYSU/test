@@ -178,6 +178,7 @@ payload:
   - DOMAIN-SUFFIX,synology.cn
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,synology.me
+  - DOMAIN-SUFFIX,beyond1836.com
 
   # 苹果定位服务
   - DOMAIN,configuration.ls.apple.com
