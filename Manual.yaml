@@ -1,5 +1,6 @@
 payload:
   # 自定义
+  - DOMAIN,foodroom.synology.me
   - DOMAIN-SUFFIX,ipdata.co
   - DOMAIN-SUFFIX,ping0.cc
   - DOMAIN-SUFFIX,formula1.com
